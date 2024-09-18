@@ -1,5 +1,5 @@
 courseId: courseID 
-lang: en
+lang: sr-Cyrl
 title: Petljadoc Course
 description:
   willLearn: 
@@ -19,7 +19,7 @@ description:
       href: https://github.com/RunestoneInteractive/overview
   longDescription: |
     This is an example of a long description...
-  shortDescription: Shrot description
+  shortDescription: Short description
 
 
 lessons:

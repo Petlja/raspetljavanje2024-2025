@@ -47,3 +47,20 @@ ActiveCode
 
 
 Now feel free to modify this file to start creating your own interactive page.
+
+
+.. infonote::
+
+  ovo je infonote
+
+.. questionnote::
+
+  ovo je questionnote
+
+.. technicalnote::
+
+  ovo je technicalnote
+
+.. suggestionnote::
+
+  ovo je suggestionnote

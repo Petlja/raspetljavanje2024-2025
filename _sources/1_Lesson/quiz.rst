@@ -2,11 +2,7 @@
 Test your students
 ==================
 
-Multiple Answer
-===============
 
-Old style
----------
 .. quizq:: 
 
     .. mchoice:: question1
@@ -24,37 +20,9 @@ Old style
         Which colors might be found in a rainbow (check all)?
 
     
-New style
----------
-.. quizq:: 
- 
-    .. mchoice:: question1_new
-
-        Which colors might be found in a rainbow (check all)?
-
-        -   red
-
-            +   Red it is.
-
-        -   brown
-
-            -   Not brown.
-
-        -   blue
-
-            +   Blue it is.
-
-        -   gray
-
-            -   Not gray.
 
 
 
-Multiple Choice
-===============
-
-Old style
----------
 .. quizq:: 
 
     .. mchoice:: question2
@@ -71,27 +39,51 @@ Old style
         What color is a stop sign?
 
 
-New style
----------
+
 .. quizq:: 
 
-    .. mchoice:: question2_new
+    .. mchoice:: mchoice_sample_question1
+        :answer_a: 20
+        :answer_b: 14
+        :answer_c: 9
+        :feedback_a: Води рачуна о приоритету операција.
+        :feedback_b: Тачан одговор.
+        :feedback_c: Тачка означава множење.
+        :correct: b
 
-        What color is a stop sign?
+        Колико је :math:`2 + 3 \cdot 4`?
 
-        -   red
+.. quizq:: 
 
-            +   Red it is.
+    .. dragndrop:: dragndrop_sample_question1
+        :feedback: Покушајте поново.
+        :match_1: јарац ||| коза
+        :match_2: јелен ||| кошута
+        :match_3: бик ||| крава
 
-        -   brown
+        Повежи мужјака и женку исте врсте
 
-            -   Not brown.
+.. quizq:: 
 
-        -   blue
+    .. parsonsprob:: parsonsprob_sample_question1
 
-            -   Not blue.
+        Поређај од најмлађег до најстаријег.
+        -----
+        беба
+        дечак
+        момак
+        човек
+        деда
 
-        -   gray
 
-            -   Not gray.
+.. quizq:: 
 
+    .. fillintheblank:: fillintheblank_sample_question1
+
+        У поље за одговор упиши децималан број, који је четири пута мањи од 9.
+        Одговор упиши без размака и сувишних децимала.
+
+        Одговор: |blank|
+
+        - :^2\.25|2,25$: Одговор је тачан.
+        :x: Одговор није тачан.
