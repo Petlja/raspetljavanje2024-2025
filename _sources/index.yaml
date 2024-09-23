@@ -40,7 +40,7 @@ lessons:
   - title: Lesson 2
     guid: 83caed00-51ed-4dab-baa3-5cf095de5610
     description: 
-    folder: 2_lesson
+    folder: 2_Lesson
     activities:
       - type: reading
         title: Intro
