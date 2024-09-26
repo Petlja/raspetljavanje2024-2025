@@ -23,29 +23,48 @@ description:
 
 
 lessons:
+
   - title: Lesson 1
     guid: c2c651cd-53d9-4a3d-ba4f-650b8422f0bc
     description: Your first lesson. Description is not required attribute
     folder: 1_Lesson
     activities:
+
       - type: reading
         title: Intro
         file: intro.rst 
         description: #Optional
         guid: 71c00155-f7f3-410d-8019-e88d22cb7f01
+
       - type: quiz
         title: Test your students
         file: quiz.rst
         guid: dd96bf63-e558-4540-95a6-00b96e45e3ef
+
+
   - title: Lesson 2
     guid: 83caed00-51ed-4dab-baa3-5cf095de5610
     description: 
     folder: 2_Lesson
     activities:
+
       - type: reading
         title: Intro
         file: primer.rst
         description: #Optional
         guid: adae86fa-e79b-446e-bf59-c773e6d19971
+
+
+  - title: Grananje
+    guid: e301c6dd-f29e-454f-bce1-23c705e257b1
+    description: 
+    folder: 2_Grananje
+    activities:
+
+      - type: reading
+        title: Grananje
+        file: grananje.rst
+        description: #Optional
+        guid: 6bed1b9e-2b42-40a5-a88d-3df4641917a8
 
         
