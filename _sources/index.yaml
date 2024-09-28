@@ -55,16 +55,20 @@ lessons:
         guid: adae86fa-e79b-446e-bf59-c773e6d19971
 
 
-  - title: Grananje
+  - title: Гранање
     guid: e301c6dd-f29e-454f-bce1-23c705e257b1
     description: 
     folder: 2_Grananje
     activities:
 
       - type: reading
-        title: Grananje
+        title: Гранање
         file: grananje.rst
-        description: #Optional
         guid: 6bed1b9e-2b42-40a5-a88d-3df4641917a8
+
+      - type: reading
+        title: Логичке операције
+        file: logicke_operacije.rst
+        guid: e620fc84-fef9-4b8e-a5ce-2a64a4272fc0
 
         
