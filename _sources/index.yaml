@@ -24,51 +24,98 @@ description:
 
 lessons:
 
-  - title: Lesson 1
+  - title: 1. Основе
     guid: c2c651cd-53d9-4a3d-ba4f-650b8422f0bc
-    description: Your first lesson. Description is not required attribute
-    folder: 1_Lesson
+    description: 
+    folder: 1_Osnove
     activities:
 
       - type: reading
-        title: Intro
-        file: intro.rst 
+        title: 1.1 Uvod
+        file: 1_1_Uvod.rst
         description: #Optional
         guid: 71c00155-f7f3-410d-8019-e88d22cb7f01
 
-      - type: quiz
-        title: Test your students
-        file: quiz.rst
+      - type: reading
+        title: 1.2 Испис - print()
+        file: 1_2_Ispis.rst
         guid: dd96bf63-e558-4540-95a6-00b96e45e3ef
-
-
-  - title: Lesson 2
-    guid: 83caed00-51ed-4dab-baa3-5cf095de5610
-    description: 
-    folder: 2_Lesson
-    activities:
+      
+      - type: reading
+        title: 1.3 Типови података
+        file: 1_3_Tipovi.rst
+        guid: 212f4a1a-e0d7-4171-a691-e3284822b6b1
 
       - type: reading
-        title: Intro
-        file: primer.rst
-        description: #Optional
-        guid: adae86fa-e79b-446e-bf59-c773e6d19971
+        title: 1.4 Унос података - input()
+        file: 1_4_Unos.rst
+        guid: cf8c08d6-711c-443d-9098-a8f2fe147d45
+
+      - type: reading
+        title: 1.5 Вежбе
+        file: 1_5_Vezbe.rst
+        guid: 2947ad11-cce1-47dd-a996-9bac19050194
+
+      - type: reading
+        title: 1.6 Домаћи задаци
+        file: 1_6_Domaci.rst
+        guid: 662e03e5-68bd-4b70-ab9b-3099c39d0da8
 
 
-  - title: Гранање
+  - title: 2. Гранање
     guid: e301c6dd-f29e-454f-bce1-23c705e257b1
     description: 
     folder: 2_Grananje
     activities:
 
       - type: reading
-        title: Гранање
-        file: grananje.rst
+        title: 2.1 Гранање
+        file: 2_1_grananje.rst
         guid: 6bed1b9e-2b42-40a5-a88d-3df4641917a8
 
       - type: reading
-        title: Логичке операције
-        file: logicke_operacije.rst
+        title: 2.2 Логичке операције
+        file: 2_2_logicke_operacije.rst
         guid: e620fc84-fef9-4b8e-a5ce-2a64a4272fc0
 
+      - type: reading
+        title: 2.3 Вежбе
+        file: 2_3_vezbe.rst
+        guid: 44454acf-afad-4a86-832d-329e9fead350
+
+      - type: reading
+        title: 2.4 Домаћи задаци
+        file: 2_4_domaci.rst
+        guid: 99c8c5d2-24d7-4075-9fb8-ba55d41a3326
+      
+  - title: 3. Петље
+    guid: ecc6cf85-c5ec-4829-b5d8-56a35d31bffc
+    description: 
+    folder: 3_Petlje
+    activities:
+
+      - type: reading
+        title: 3.1 For петља
+        file: 3_1_for.rst
+        guid: 2b5e7478-1251-4b46-8345-75adfb83f7fe
+
+      - type: reading
+        title: 3.2 While петља
+        file: 3_2_while.rst
+        guid: 9b570f5b-8ef8-4158-9f67-2c9d75b0bd59
+
+      - type: reading
+        title: 3.3 Веза између for и while петље 
+        file: 3_3_veza.rst
+        guid: d43fae51-95bc-4238-9e3b-9fed2fcb087c
+
+      - type: reading
+        title: 3.4 Вежбе
+        file: 3_4_vezbe.rst
+        guid: b5b8a141-d5a5-479d-bf7c-7558b9d54469
+
+      - type: reading
+        title: 3.5 Домаћи задаци
+        file: 3_5_domaci.rst
+        guid: 59b728b6-4878-426e-935c-a6cff94a3a16
         
