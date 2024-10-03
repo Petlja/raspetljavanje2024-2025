@@ -177,7 +177,7 @@ else
 
 
 
-.. code-block:: grananje4
+.. code-block:: python
 
   poeni = int(input("Unesite broj poena: "))
 
