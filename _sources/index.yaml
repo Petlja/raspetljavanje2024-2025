@@ -31,7 +31,7 @@ lessons:
     activities:
 
       - type: reading
-        title: 1.1 Uvod
+        title: 1.1 Увод
         file: 1_1_Uvod.rst
         description: #Optional
         guid: 71c00155-f7f3-410d-8019-e88d22cb7f01
