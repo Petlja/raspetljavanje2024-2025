@@ -27,11 +27,11 @@ Python подржава више различитих типова подата�
 
    a = 5
    b = 2
-   сабирање = a + b
-   множење = a * b
-   одузимање = a - b
-   дељење = a / b
-   print(сабирање, множење, одузимање, дељење)
+   sabiranje = a + b
+   mnozenje = a * b
+   oduzimanje = a - b
+   deljenje = a / b
+   print(sabiranje, mnozenje, oduzimanje, deljenje)
 
 
 - Реални број (Float)
@@ -41,10 +41,10 @@ Python подржава више различитих типова подата�
 .. activecode:: aritmetika2
    :coach:
 
-   π = 3.14159
-   тежина = 70.5
-   print(π)
-   print(тежина)
+   pi = 3.14159
+   tezina = 70.5
+   print(pi)
+   print(tezina)
 
 
 Python такође подржава операције са реалним бројевима.
@@ -54,9 +54,9 @@ Python такође подржава операције са реалним бр
 
    a = 7.5
    b = 2.3
-   збир = a + b
-   производ = a * b
-   print(збир, производ)
+   zbir = a + b
+   proizvod = a * b
+   print(zbir, proizvod)
 
 
 
@@ -67,10 +67,10 @@ Python такође подржава операције са реалним бр
 .. activecode:: aritmetika4
    :coach:
    
-   име = "Марија"
-   порука = 'Здраво, светe!'
-   print(име)
-   print(порука)
+   ime = "Марија"
+   poruka = 'Здраво, светe!'
+   print(ime)
+   print(poruka)
 
 
 Можете комбиновати стрингове користећи оператор `+` или методе као што је `format()` или ф-стринг.
@@ -79,18 +79,19 @@ Python такође подржава операције са реалним бр
 .. activecode:: aritmetika5
    :coach:
 
-   прво_име = "Јован"
-   презиме = "Петровић"
-   пуно_име = прво_име + " " + презиме
-   print(пуно_име)
+   ime = "Јован"
+   prezime = "Петровић"
+   puno_ime = ime + " " + prezime
+   print(puno_ime)
 
 Пример са ф-стрингом:
 
 .. activecode:: aritmetika6
    :coach:
 
-   година = 23
-   print(f"{прво_име} има {година} године.")
+   ime = "Petar"
+   godina = 23
+   print(f"{ime} има {godina} године.")
 
 
 - Логички тип (Boolean)
@@ -100,10 +101,10 @@ Python такође подржава операције са реалним бр
 .. activecode:: aritmetika7
    :coach:
    
-   тачно = True
-   нетачно = False
-   print(тачно)
-   print(нетачно)
+   tacno = True
+   netacno = False
+   print(tacno)
+   print(netacno)
 
 
 Логичке вредности се добијају коришћењем оператора за поређење, као што су `==`, `!=`, `>`, `<`, `>=`, `<=`.
@@ -126,20 +127,21 @@ Python такође подржава операције са реалним бр
 .. activecode:: aritmetika9
    :coach:
 
-   листа_бројева = [1, 2, 3, 4, 5]
-   листа_мешовитих_типова = [1, "два", 3.0, True]
-   print(листа_бројева)
-   print(листа_мешовитих_типова)
+   lista_brojeva = [1, 2, 3, 4, 5]
+   lista_mesovitih_tipova = [1, "два", 3.0, True]
+   print(lista_brojeva)
+   print(lista_mesovitih_tipova)
 
 Можете приступити елементима листе користећи индекс, при чему индексирање почиње од 0.
 
 .. activecode:: aritmetika10
    :coach:
 
-   први_елемент = листа_бројева[0]
-   последњи_елемент = листа_бројева[-1]
-   print(први_елемент)
-   print(последњи_елемент)
+   lista_brojeva = [1, 2, 3, 4, 5]
+   prvi_element = lista_brojeva[0]
+   poslednji_element = lista_brojeva[-1]
+   print(prvi_element)
+   print(poslednji_element)
 
 
 -Речник (Dictionary)
@@ -151,12 +153,12 @@ Python такође подржава операције са реалним бр
 .. activecode:: aritmetika11
    :coach:
 
-   студент = {
-       "име": "Марија",
-       "године": 20,
-       "факултет": "Електротехнички факултет"
+   student = {
+       "ime": "Марија",
+       "godine": 20,
+       "fakultet": "Електротехнички факултет"
     }
-   print(студент)
+   print(student)
 
 
 Можете приступити вредностима у речнику користећи кључеве.
@@ -164,9 +166,79 @@ Python такође подржава операције са реалним бр
 .. activecode:: aritmetika12
    :coach:
 
+   
+   student = {
+       "ime": "Марија",
+       "godine": 20,
+       "fakultet": "Електротехнички факултет"
+    }
+   print(student["ime"])
+   print(student["fakultet"])
+   
+   
+   
+- Konverzija između tipova podataka podrazumeva pretvaranje jedne vrste podataka u drugu. U većini programskih jezika, ovo se radi automatski (implicitna konverzija) ili eksplicitno pomoću posebnih funkcija
 
-   print(студент["име"])
-   print(студент["факултет"])
+Evo nekoliko primera za eksplicitnu konverziju (poznatu kao casting) u Python-u:
+
+-Konverzija iz stringa u broj (integer):
+Pretvaranje stringa koji sadrži broj u integer
+
+.. activecode:: konverzije1
+   :coach:
+
+   str_num = "123"
+   int_num = int(str_num)
+   print(int_num)  
+
+
+-Konverzija iz broja u string:
+Pretvaranje integer-a u string.
+
+
+.. activecode:: konverzije2
+   :coach:
+
+   int_num = 456
+   str_num = str(int_num)
+   print(str_num)  
+
+
+-Konverzija iz float-a u integer. Pretvaranje broja sa decimalom u ceo broj (decimale se odbacuju).
+
+
+.. activecode:: konverzije3
+   :coach:
+
+   float_num = 9.99
+   int_num = int(float_num)
+   print(int_num)  
+
+
+-Konverzija iz integer-a u float. Pretvaranje celog broja u broj sa decimalom.
+
+
+.. activecode:: konverzije4
+   :coach:
+
+   int_num = 7
+   float_num = float(int_num)
+   print(float_num)  
+
+
+-Konverzija iz integer-a u boolean. Pretvaranje celog broja u boolean vrednost (0 je False, sve ostalo je True)
+
+
+.. activecode:: konverzije5
+   :coach:
+
+   int_num = 0
+   bool_value = bool(int_num)
+   print(bool_value)  
+
+
+Svaka konverzija treba da bude pažljiva, posebno kada radimo sa različitim tipovima podataka, kako bi se izbegle greške poput neodgovarajućih formata ili gubitka podataka.
+   
 
 
 Резиме

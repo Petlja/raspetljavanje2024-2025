@@ -13,7 +13,7 @@
 .. activecode:: print1
    :coach:
 
-   print("Здраво, свете!")
+   print("Zdravo, svete!")
 
 .. infonote::
 
@@ -27,7 +27,7 @@
 
    x = 42
    y = 3.14
-   ime = "Марија"
+   ime = "Marija"
    print(x, y, ime)
    
 - Комбиновање типова података  
@@ -38,7 +38,7 @@
 
    x = 42
    y = 3.14
-   print("Резултат је:", x, "а број пи је", y)
+   print("Rezultat je:", x, "a broj pi je:", y)
    
    
 - Нови ред (`\n`)  
@@ -65,9 +65,10 @@
 .. activecode:: print6
    :coach:
    
-   име = "Петар"
-   година = 23
-   print(f"{име} има {година} године.")
+   ime = "Petar"
+   godina = 23
+   print(f"{ime} ima {godina} godine.")
+   
    
 - Форматирање бројева  
     Можете контролисати број децимала у испису реалних бројева.
@@ -75,8 +76,8 @@
 .. activecode:: print7
    :coach:
    
-   број = 3.14159
-   print(f"Број пи је приближно: {број:.2f}")
+   broj = 3.14159
+   print(f"Broj pi je priblizno: {broj:.2f}")
 
    
 - Метод `.format()`  
@@ -85,9 +86,9 @@
 .. activecode:: print8
    :coach:
    
-   текст = "Цена производа је {} динара."
-   цена = 250
-   print(текст.format(цена))
+   tekst = "Cena proizvoda je {} dinara."
+   cena = 250
+   print(tekst.format(cena))
 
 - Параметар sep  
     Користи се за прилагођавање симбола који раздваја елементе.
@@ -95,7 +96,7 @@
 .. activecode:: print9
    :coach:
    
-   print("Марија", "Петар", "Јована", sep=", ")
+   print("Marija", "Petar", "Jovana", sep=", ")
    
 
 - Параметар end  
@@ -105,18 +106,8 @@
 .. activecode:: print10
    :coach:
    
-   print("Ово је крај", end="!")
-   print("Следећа линија неће бити у новом реду")
-    
-
-- Испис у текстуални фајл  
-    Можете проследити отворен фајл као параметар `file` за испис уместо у конзолу.
-    
-.. activecode:: print11
-   :coach:    
-
-   with open("output.txt", "w") as file:
-   print("Ово је текст у фајлу.", file=file)
+   print("Ovo je kraj", end="!")
+   print("Sledeća linija neće biti u novom redu.")
     
 
 - Испис табела  
@@ -126,9 +117,9 @@
 .. activecode:: print12
    :coach:    
    
-   print("Име\tПредмет\tОцена")
-   print("Марија\tМатематика\t5")
-   print("Петар\tФизика\t4")
+   print("Ime\tPredmet\tOcena")
+   print("Marija\tMatematika\t5")
+   print("Petar\tFizika\t4")
    
 
 - Испис током рада програма
@@ -138,27 +129,27 @@
    :coach: 
    
    for i in range(3):
-   print(f"Обрада податка {i+1}")
+       
+      print(f"Obrada podataka {i+1}")
    
 
 - Заборављање на формат стрингова  
-    Када се користе променљиве у print(), морате бити сигурни да су коректно форматиране.
+    Када се користе променљиве у print(), морате бити сигурни да су коректно форматиране. Овај исказ ће дати грешку јер је година у променљивој 'broj' податак типа integer.
     
 .. activecode:: print14
    :coach: 
    
-   година = 23
-   print("Петар има" + година + "године.")
+   godina = 23
+   print("Petar ima" + godina + "godine.")
 
 
-Овај исказ ће изказвати грешку јер је година број
 Исправљен исказ
 
 .. activecode:: print15
    :coach: 
    
-   година = 23
-   print("Петар има " + str(година) + " године.")
+   godina = 23
+   print("Petar ima " + str(godina) + " godine.")
 
 - Употреба print() у петљама  
     Када се print() користи унутар петљи, то може успорити извршавање програма због превеликог броја исказа.
@@ -167,5 +158,5 @@
    :coach:   
    
    for i in range(1000):
-   print(i)
+       print(i)
     
