@@ -1,91 +1,85 @@
 For петља
 ===========
 
-Lekcija: `for` Petlja u Pajtonu
 
-U Pajtonu, `for` petlja služi za ponavljanje određenih radnji više puta, po elementima neke kolekcije (kao što su liste, rečnici, skupovi, itd.) 
-ili unutar određenog intervala vrednosti. Sa `for` petljom možemo proći kroz svaki element određene sekvence i izvršiti neku radnju za svaki od njih.
+У Пајтону, `for` петља служи за понављање одређених радњи више пута, по елементима неке колекције (као што су листе, речници, скупови, итд.) или унутар одређеног интервала вредности. Са `for` петљом можемо проћи кроз сваки елемент одређене секвенце и извршити неку радњу за сваки од њих.
 
-Osnovna sintaksa:
+Основна синтакса:
 
-.. activecode:: for1
+.. activecode:: for1  
    :coach:
 
-   for element in sekvenca:
-       # ovde ide kod koji će se izvršiti za svaki element
+   for елемент у секвенца:  
+       # овде иде код који ће се извршити за сваки елемент
 
 
-- **`element`** predstavlja promenljivu koja uzima vrednost svakog pojedinačnog elementa iz sekvence.
-- **`sekvenca`** je kolekcija elemenata kroz koje petlja prolazi.
+- **`елемент`** представља променљиву која узима вредност сваког појединачног елемента из секвенце.
+- **`секвенца`** је колекција елемената кроз које петља пролази.
 
 
-Primer 1: `for` petlja kroz listu
+Пример 1: `for` петља кроз листу
 
-.. activecode:: for2
+.. activecode:: for2  
    :coach:
 
-   voce = ["jabuka", "banana", "kruska"]
-   for vocka u voce:
+   vocka = ["јабука", "банана", "крушка"]  
+   for vocka in voce:  
        print(vocka)
 
 
+Пример 2: Коришћење `range()` функције  
+Функција `range()` генерише низ бројева, који се често користе са `for` петљом.
 
-Primer 2: Korišćenje `range()` funkcije
-Funkcija `range()` generiše niz brojeva, koji se često koriste sa `for` petljom.
-
-.. activecode:: for3
+.. activecode:: for3  
    :coach:
 
-   for broj u range(5):
+   for broj in range(5):  
+       print(број)
+
+
+Овде `range(5)` генерише бројеве од 0 до 4 (не укључујући 5).
+
+Пример 3: Коришћење `range(start, stop, step)`
+
+Функција `range()` може имати до три параметра:  
+- **start** (почетна вредност),  
+- **stop** (крајња вредност, али не укључена),  
+- **step** (корак, односно интервал).
+
+.. activecode:: for4  
+   :coach:
+
+   for broj in range(2, 10, 2):  
        print(broj)
 
 
-Ovde `range(5)` generiše brojeve od 0 do 4 (ne uključujući 5).
+Пример 4: Угнежђена `for` петља
 
-Primer 3: Korišćenje `range(start, stop, step)`
+Можете имати једну `for` петљу унутар друге.
 
-Funkcija `range()` može imati do tri parametra:
-- **start** (početna vrednost),
-- **stop** (krajnja vrednost, ali ne uključena),
-- **step** (korak, odnosno interval).
-
-.. activecode:: for4
+.. activecode:: for5  
    :coach:
 
-   for broj u range(2, 10, 2):
-       print(broj)
-
-
-Primer 4: Ugnježđena `for` petlja
-
-Možete imati jednu `for` petlju unutar druge.
-
-.. activecode:: for5
-   :coach:
-
-   for i in range(3):
-       for j in range(2):
+   for i in range(3):  
+       for j in range(2):  
             print(f"i: {i}, j: {j}")
 
 
+Пример 5: `for` петља и `else`  
+`else` блок може бити коришћен са `for` петљом. Он ће се извршити када се заврши петља, осим ако није дошло до прекида `break` наредбом.
 
-Primer 5: `for` petlja i `else`
-`else` blok može biti korišćen sa `for` petljom. On će se izvršiti kada se završi petlja, osim ako nije došlo do prekida `break` naredbom.
-
-.. activecode:: for6
+.. activecode:: for6  
    :coach:
 
-
-   for broj u range(3):
-       print(broj)
-   else:
-       print("Petlja je završena!")
-
+   for broj in range(3):  
+       print(broj)  
+   else:  
+       print("Петља је завршена!")
 
 
-Ključne stvari koje treba zapamtiti:
-- `for` petlja u Pajtonu služi za ponavljanje kroz elemente neke kolekcije ili intervala.
-- Može se kombinovati sa `range()` funkcijom za generisanje niza brojeva.
-- Može se koristiti `else` blok za dodatne radnje nakon završetka petlje.
+Кључне ствари које треба запамтити:  
+- `for` петља у Пајтону служи за понављање кроз елементе неке колекције или интервала.  
+- Може се комбиновати са `range()` функцијом за генерисање низа бројева.  
+- Може се користити `else` блок за додатне радње након завршетка петље.
 
-`For` petlje su moćan način za obradu podataka u Pajtonu, posebno kada treba da prođete kroz velike količine podataka na efikasan način.
+`For` петље су моћан начин за обраду података у Пајтону, посебно када треба да прођете кроз велике количине података на ефикасан начин.

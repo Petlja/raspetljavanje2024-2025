@@ -1,101 +1,98 @@
 While петља
 ============
 
-Lekcija: `while` Petlja u Pajtonu
 
-`while` petlja u Pajtonu se koristi kada želimo da ponavljamo određeni blok koda dok neki uslov ostaje tačan. Ova petlja će nastaviti da izvršava kod sve dok je uslov `True`. Kada uslov postane `False`, petlja se prekida i prelazi se na ostatak programa.
 
-Osnovna sintaksa:
+У Пајтону, `while` петља се користи када желимо да понављамо одређени блок кода док неки услов остаје тачан. Ова петља ће наставити да извршава код све док је услов `True`. Када услов постане `False`, петља се прекида и прелази се на остатак програма.
 
-.. activecode:: while1
+Основна синтакса:
+
+.. activecode:: while1  
    :coach:
 
-   while uslov:
-       # kod koji se izvršava dok je uslov tačan
+   while услов:  
+       # код који се извршава док је услов тачан
 
 
-- **`uslov`** je logički izraz koji se proverava pre svakog prolaska kroz petlju.
-- Petlja će se nastaviti sve dok je vrednost uslova `True`.
+- **`услов`** је логички израз који се проверава пре сваког проласка кроз петљу.
+- Петља ће се наставити све док је вредност услова `True`.
 
-Primer 1: Jednostavna `while` petlja
-Ovaj primer će štampati brojeve od 1 do 5.
+Пример 1: Једноставна `while` петља  
+Овај пример ће штампати brojеве од 1 до 5.
 
-.. activecode:: while2
+.. activecode:: while2  
    :coach:
 
-   broj = 1
-   while broj <= 5:
-       print(broj)
+   broj = 1  
+   while broj <= 5:  
+       print(broj)  
        broj += 1
 
 
+Овде петља траје док је вредност променљиве `broj` мања или једнака 5. Након сваког проласка, `broj` се увећава за 1.
 
-Ovde petlja traje dok je vrednost promenljive `broj` manja ili jednaka 5. Nakon svakog prolaska, `broj` se uvećava za 1.
+Пример 2: Бесконачна `while` петља  
+Ако услов у `while` петљи увек остаје тачан, петља ће се извршавати бесконачно, што може довести до проблема ако се не заустави. У наставку је пример бесконачне петље:
 
-Primer 2: Beskonačna `while` petlja
-Ako uslov u `while` petlji uvek ostaje tačan, petlja će se izvršavati beskonačno, što može dovesti do problema ako se ne zaustavi. U nastavku je primer beskonačne petlje:
-
-.. activecode:: while3
-   :coach:
-   
-   while True:
-       print("Ova petlja traje zauvek!")
-
-
-**Napomena**: Da bi se zaustavila ovakva petlja, koristimo neku formu prekida, poput naredbe `break`.
-
-Primer 3: Korišćenje `break` u `while` petlji
-Naredba `break` se koristi za prevremeni prekid petlje, čak i ako uslov još uvek važi.
-
-.. activecode:: while4
+.. activecode:: while3  
    :coach:
 
-   broj = 1
-   while True:
-       print(broj)
-       if broj == 3:
-           break
+   while True:  
+       print("Ова петља траје заувек!")
+
+
+**Напомена**: Да би се зауставила оваква петља, користимо неку форму прекида, попут наредбе `break`.
+
+Пример 3: Коришћење `break` у `while` петљи  
+Наредба `break` се користи за превремени прекид петље, чак и ако услов још увек важи.
+
+.. activecode:: while4  
+   :coach:
+
+   broj = 1  
+   while True:  
+       print(broj)  
+       if broj == 3:  
+           break  
        broj += 1
 
 
-Ova petlja bi teoretski trajala zauvek, ali kada promenljiva `broj` postane 3, `break` naredba prekida petlju.
+Ова петља би теоретски трајала заувек, али када променљива `broj` постане 3, `break` наредба прекида петљу.
 
-Primer 4: Korišćenje `continue` u `while` petlji
-Naredba `continue` preskače ostatak koda u trenutnom prolasku petlje i prelazi na sledeći prolazak.
+Пример 4: Коришћење `continue` у `while` петљи  
+Наредба `continue` прескаче остатак кода у тренутном проласку петље и прелази на следећи пролазак.
 
-.. activecode:: while5
+.. activecode:: while5  
    :coach:
-   
-   
-   broj = 0
-   while broj < 5:
-       broj += 1
-       if broj == 3:
-           continue
+
+   broj = 0  
+   while broj < 5:  
+       broj += 1  
+       if broj == 3:  
+           continue  
        print(broj)
 
 
-Kada `broj` postane 3, `continue` preskače tu iteraciju, pa se broj 3 ne ispisuje.
+Када `broj` постане 3, `continue` прескаче ту итерацију, па се broj 3 не исписује.
 
-Primer 5: `while` petlja sa `else` blokom
-Slično kao kod `for` petlje, `else` blok se može koristiti sa `while` petljom i on će se izvršiti kada petlja završi na prirodan način (bez prekida `break` naredbom).
+Пример 5: `while` петља са `else` блоком  
+Слично као код `for` петље, `else` блок се може користити са `while` петљом и он ће се извршити када петља заврши на природан начин (без прекида `break` наредбом).
 
-.. activecode:: while6
+.. activecode:: while6  
    :coach:
 
-   broj = 1
-   while broj <= 3:
-       print(broj)
-       broj += 1
-   else:
-       print("Petlja je završena!")
+   broj = 1  
+   while broj <= 3:  
+       print(broj)  
+       broj += 1  
+   else:  
+       print("Петља је завршена!")
 
 
+Кључне ствари које треба запамтити:  
+- `while` петља се извршава све док је услов тачан.  
+- Користите `break` за превремени излаз из петље.  
+- `continue` се користи за прескакање тренутног проласка и прелазак на следећи.  
+- Петља са `else` блоком омогућава додатну радњу након завршетка петље.
 
-Ključne stvari koje treba zapamtiti:
-- `while` petlja se izvršava sve dok je uslov tačan.
-- Koristite `break` za prevremeni izlaz iz petlje.
-- `continue` se koristi za preskakanje trenutnog prolaska i prelazak na sledeći.
-- Petlja sa `else` blokom omogućava dodatnu radnju nakon završetka petlje.
-
-`While` petlje su korisne kada ne znamo tačno koliko puta treba da ponovimo radnju, već se oslanjamo na neki dinamički uslov koji kontroliše izvršavanje petlje.
+`While` петље су корисне када не знамо тачно колико пута треба да поновимо радњу, већ се ослањамо на неки услов који контролише извршавање петље.

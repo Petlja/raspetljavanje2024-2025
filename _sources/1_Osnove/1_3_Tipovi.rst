@@ -253,23 +253,3 @@ Svaka konverzija treba da bude pažljiva, posebno kada radimo sa različitim tip
 Ови типови података представљају основе за рад са подацима у Python-у.
 
 
-String
-------
-
-
-Int
-----
-
-Float
-------
-
-Bool
------
-
-Конверзија између типова
--------------------------
-
-
-Основна артиметика
--------------------
-

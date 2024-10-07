@@ -2,149 +2,146 @@
 =============================
 
 
-Lekcija: Veza između `for` i `while` petlje u Pajtonu
+У Пајтону постоје две главне врсте петљи: `for` петља и `while` петља. Оба типа петљи омогућавају понављање блока кода, али се разликују по томе како функционишу и када се користе. Разумевање њихове везе помаже у избору правог алата за решавање одређених проблема.
 
-U Pajtonu postoje dve glavne vrste petlji: `for` petlja i `while` petlja. Oba tipa petlji omogućavaju ponavljanje bloka koda, ali se razlikuju po tome kako funkcionišu i kada se koriste. Razumevanje njihove veze pomaže u izboru pravog alata za rešavanje određenih problema.
+Основне разлике између `for` и `while` петље
 
-Osnovne razlike između `for` i `while` petlje
+- **`for` петља** се користи када знамо тачан broj итерација (понављања) или када итерирамо кроз колекције података (нпр. листу, речник, скуп, стринг).
+- **`while` петља** се користи када понављање зависи од испуњавања одређеног услова, а broj итерација није унапред познат.
 
-- **`for` petlja** se koristi kada znamo tačan broj iteracija (ponavljanja) ili kada iteriramo kroz kolekcije podataka (npr. listu, rečnik, skup, string).
-- **`while` petlja** se koristi kada ponavljanje zavisi od ispunjavanja određenog uslova, a broj iteracija nije unapred poznat.
+Синтакса:
+- **`for` петља**:
 
-Sintaksa:
-- **`for` petlja**:
-
-.. activecode:: forwhile1
+.. activecode:: forwhile1  
    :coach:
 
-   for element in sekvenca:
-        # kod koji se izvršava za svaki element
+   for елемент in секвенца:  
+        # код који се извршава за сваки елемент
    
 
-- **`while` petlja**:
+- **`while` петља**:
  
-.. activecode:: forwhile2
+.. activecode:: forwhile2  
    :coach: 
+   
+	while услов:  
+        # код који се извршава док је услов тачан
     
-	while uslov:
-        # kod koji se izvršava dok je uslov tačan
-    
 
-Veza između `for` i `while` petlje
+Веза између `for` и `while` петље
 
-Iako su ove dve petlje različite u načinu rada, mnogi problemi koji se rešavaju `for` petljom mogu se rešiti i pomoću `while` petlje, i obrnuto. Razlika je u načinu na koji se kontroliše petlja.
+Иако су ове две петље различите у начину рада, многи проблеми који се решавају `for` петљом могу се решити и помоћу `while` петље, и обрнуто. Разлика је у начину на који се контролише петља.
 
-Primer 1: `for` petlja kao `while` petlja
+Пример 1: `for` петља као `while` петља
 
-Pogledajmo klasičan primer `for` petlje koja iterira kroz listu:
+Погледајмо класичан пример `for` петље која итерира кроз листу:
 
-.. activecode:: forwhile3
+.. activecode:: forwhile3  
    :coach: 
 
-   voce = ["jabuka", "banana", "kruska"]
-   for vocka in voce:
+   voce = ["јабука", "банана", "крушка"]  
+   for vocka in voce:  
        print(vocka)
 
 
-Ova petlja može biti napisana pomoću `while` petlje tako što ćemo koristiti brojač za praćenje indeksa liste:
+Ова петља може бити написана помоћу `while` петље тако што ћемо користити brojач за праћење индекса листе:
 
-.. activecode:: forwhile4
+.. activecode:: forwhile4  
    :coach: 
 
-   voce = ["jabuka", "banana", "kruska"]
-   i = 0
-   while i < len(voce):
-       print(voce[i])
+   voce = ["јабука", "банана", "крушка"]  
+   i = 0  
+   while i < len(voce):  
+       print(voce[i])  
        i += 1
 
 
-U ovom slučaju, koristimo `while` petlju kako bismo prošli kroz svaki element liste koristeći indeks. U oba primera dobijamo isti rezultat, iako je `for` petlja prirodnija za rad sa kolekcijama.
+У овом случају, користимо `while` петљу како бисмо прошли кроз сваки елемент листе користећи индекс. У оба примера добијамо исти резултат, иако је `for` петља природнија за рад са колекцијама.
 
-Primer 2: `while` petlja kao `for` petlja
+Пример 2: `while` петља као `for` петља
 
-Kada znamo tačan broj iteracija, možemo zameniti `while` petlju sa `for` petljom. Na primer, ako želimo da ispišemo brojeve od 1 do 5 koristeći `while` petlju:
+Када знамо тачан broj итерација, можемо заменити `while` петљу са `for` петљом. На пример, ако желимо да испишемо brojеве од 1 до 5 користећи `while` петљу:
 
-.. activecode:: forwhile5
+.. activecode:: forwhile5  
    :coach: 
 
-   broj = 1
-   while broj <= 5:
-       print(broj)
+   broj = 1  
+   while broj <= 5:  
+       print(broj)  
        broj += 1
 
 
-Ova petlja može biti preformulisana u `for` petlju koristeći `range()` funkciju:
+Ова петља може бити преформулисана у `for` петљу користећи `range()` функцију:
 
-.. activecode:: forwhile6
+.. activecode:: forwhile6  
    :coach: 
 
-   for broj in range(1, 6):
+   for broj in range(1, 6):  
        print(broj)
 
 
-Ovo je elegantniji način za rešavanje problema kada se unapred zna broj iteracija.
+Ово је елегантнији начин за решавање проблема када се унапред зна broj итерација.
 
-Kada koristiti `for`, a kada `while` petlju?
+Када користити `for`, а када `while` петљу?
 
-1. **Kada koristiti `for` petlju**:
-   - Kada radimo sa kolekcijama podataka (listama, stringovima, rečnicima, skupovima).
-   - Kada unapred znamo koliko puta treba da ponovimo blok koda.
-   - Kada koristimo funkciju `range()` za iteriranje kroz sekvencu brojeva.
+1. **Када користити `for` петљу**:
+   - Када радимо са колекцијама података (листама, стринговима, речницима, скуповима).
+   - Када унапред знамо колико пута треба да поновимо блок кода.
+   - Када користимо функцију `range()` за итерирање кроз секвенцу brojева.
 
-2. **Kada koristiti `while` petlju**:
-   - Kada broj ponavljanja zavisi od uslova koji se menja u toku izvršavanja programa.
-   - Kada unapred ne znamo koliko iteracija je potrebno, već čekamo da se ispuni neki uslov.
-   - Kada se petlja može prekinuti u bilo kom trenutku na osnovu promenljive vrednosti (npr. korisnički unos).
+2. **Када користити `while` петљу**:
+   - Када broj понављања зависи од услова који се мења у току извршавања програма.
+   - Када унапред не знамо колико итерација је потребно, већ чекамо да се испуни неки услов.
+   - Када се петља може прекинути у било ком тренутку на основу променљиве вредности (нпр. кориснички унос).
 
-Sličnosti između `for` i `while` petlje
+Сличности између `for` и `while` петље
 
-- **Besonačnost**: Obe petlje mogu kreirati beskonačne petlje ako se uslovi za izlazak iz petlje ne postave pravilno.
+- **Бесконачност**: Оба петље могу креирати бесконачне петље ако се услови за излазак из петље не поставе правилно.
   
-    - Beskonačna `for` petlja (npr. sa `range()` bez granice):
+    - Бесконачна `for` петља (нпр. са `range()` без границе):
 
-.. activecode:: forwhile7
+.. activecode:: forwhile7  
    :coach:      
       
-   for broj in range(1, 99999999):
-      # neka radnja
+   for broj in range(1, 99999999):  
+      # нека радња
      
       
-- Beskonačna `while` petlja:
+- Бесконачна `while` петља:
  
-.. activecode:: forwhile8
+.. activecode:: forwhile8  
    :coach: 
       
-   while True:
-       # neka radnja
+   while True:  
+       # нека радња
      
 
-- **Kontrola toka**: Obe petlje mogu koristiti kontrolne naredbe kao što su `break` (za prekid petlje) i `continue` (za preskakanje trenutne iteracije).
+- **Контрола тока**: Оба петље могу користити контролне наредбе као што су `break` (за прекид петље) и `continue` (за прескакање тренутне итерације).
 
-- Primer sa `break`:
+- Пример са `break`:
     
 	
-.. activecode:: forwhile9
+.. activecode:: forwhile9  
    :coach: 
    
-   for broj in range(1, 10):
-       if broj == 5:
-           break
+   for broj in range(1, 10):  
+       if broj == 5:  
+           break  
        print(broj)
  
-.. activecode:: forwhile10
+.. activecode:: forwhile10  
    :coach:  
      
-   broj = 1
-   while broj < 10:
-       if broj == 5:
-           break
-       print(broj)
+   broj = 1  
+   while broj < 10:  
+       if broj == 5:  
+           break  
+       print(broj)  
        broj += 1
       
 
-Zaključak
 
-- **`for` petlja** je pogodnija kada radimo sa kolekcijama podataka ili kada znamo tačan broj ponavljanja.
-- **`while` petlja** je fleksibilnija za slučajeve kada je potrebno ponavljati blok koda dok neki uslov važi, a broj iteracija nije unapred poznat.
+- **`for` петља** је погоднија када радимо са колекцијама података или када знамо тачан broj понављања.
+- **`while` петља** је флексибилнија за случајеве када је потребно понављати блок кода док неки услов важи, а broj итерација није унапред познат.
 
-Izbor između `for` i `while` petlje zavisi od prirode problema koji rešavate. Oba tipa petlji su moćni alati u Pajtonu za ponavljanje zadataka.
+Избор између `for` и `while` петље зависи од природе проблема који решавате. Оба типа петљи су моћни алати у Пајтону за понављање задатака.
