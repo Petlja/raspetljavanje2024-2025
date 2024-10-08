@@ -1,13 +1,11 @@
 courseId: raspetljavanje2024-2025
 lang: sr-Cyrl
-title: Petljadoc Course
+title: расПЕТЉАвање 3.0
 description:
   willLearn: 
-    - Preview of Petljadoc course
+    - Програмирање у Пајтону
   requirements:
-    - Petljadocs
-    - Runestone
-    - Sphinx
+  - Рачунар
   toc:
     - Intro to Petljadoc INDEX.yaml
   externalLinks:  
@@ -18,8 +16,8 @@ description:
     - text: Runestone Interactive
       href: https://github.com/RunestoneInteractive/overview
   longDescription: |
-    This is an example of a long description...
-  shortDescription: Short description
+    Опис овде
+  shortDescription: Опис овде
 
 
 lessons:
