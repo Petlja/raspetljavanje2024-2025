@@ -40,12 +40,12 @@
 .. activecode:: logicke_operacije_1.py
     :coach:
 
-    godine = int(input("Унесите број година: "))
+    godine = int(input("Unesite broj godina: "))
 
     if godine < 18 and godine > 12:
-        print("Особа може да се такмичи на такмичењу.")
+        print("Osoba može da se takmiči na takmičenju.")
     else:
-        print("Особа не може да се такмичи на такмичењу.")
+        print("Osoba ne može da se takmiči na takmičenju.")
 
 Операција или (or)
 ----------------------
