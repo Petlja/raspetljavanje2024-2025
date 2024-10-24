@@ -5,7 +5,7 @@ description:
   willLearn: 
     - Програмирање у Пајтону
   requirements:
-  - Рачунар
+  - Инсталиран Пајтон
   toc:
     - Intro to Petljadoc INDEX.yaml
   externalLinks:  
