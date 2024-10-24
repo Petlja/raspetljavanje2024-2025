@@ -41,18 +41,18 @@ lessons:
         guid: 71c00155-f7f3-410d-8019-e88d22cb7f01
 
       - type: reading
-        title: 1.3 Испис - print()
-        file: 1_3_Ispis.rst
+        title: 1.3 Променљиве и Типови података 
+        file: 1_3_Tipovi.rst
         guid: dd96bf63-e558-4540-95a6-00b96e45e3ef
       
       - type: reading
-        title: 1.4 Типови података
-        file: 1_4_Tipovi.rst
+        title: 1.4 Унос података - input() 
+        file: 1_4_Unos.rst
         guid: 212f4a1a-e0d7-4171-a691-e3284822b6b1
 
       - type: reading
-        title: 1.5 Унос података - input()
-        file: 1_5_Unos.rst
+        title: 1.5 Испис - print() 
+        file: 1_5_Ispis.rst
         guid: cf8c08d6-711c-443d-9098-a8f2fe147d45
 
       - type: reading
