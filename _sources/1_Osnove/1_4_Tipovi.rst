@@ -42,7 +42,7 @@
 
 Погледај следећу анимацију:
 
-.. image:: ../../_images/Promenljive.gif
+.. image:: ../../_images/promenljive.gif
    :width: 800 px
    :alt: alternate text
 
