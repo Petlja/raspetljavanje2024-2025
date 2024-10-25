@@ -38,10 +38,10 @@ While петља
 
 Погледај следећу анимацију:
 
-.. image:: ../../images/dijagramtoka.gif
-   :width: 800 px
-   :alt: alternate text
-   
+.. image:: ../../_images/dijagramtoka.gif
+    :width: 800 px
+    :alt: alternate text
+
 
 **Пример 2: Бесконачна `while` петља**
 
