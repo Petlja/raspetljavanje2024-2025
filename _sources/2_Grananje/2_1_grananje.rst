@@ -158,15 +158,16 @@ else
 .. suggestionnote::
   Написати програм који проверава да ли је број паран.
 
-.. activecode:: grananje7
+..activecode:: grananje4
   :coach:
 
-  broj = int(input("Unesite broj: "))
+    broj = int(input("Unesite broj: "))
 
-  if 'DOPUNI':
-      print("Broj je paran")
-  else:
-      print("Broj nije paran")
+    if 'DOPUNI':
+        print("Broj je paran")
+    else:
+        print("Broj nije paran")
+    
 
 Подсетимо се да је број дељиб са неким другим бројем ако је остатак дељења са тим борјем једнак 0. С обзиром да су парни бтојеви бројеви 
 дељиви са 2 онда су парни бројеби бројеви чији је остатак при дељењу са 2 једнак 0.
