@@ -77,6 +77,11 @@ lessons:
     description: 
     folder: 2_Grananje
     activities:
+    
+      - type: reading
+        title: 2.0 Намена програма
+        file: 2_0_namena_programa.rst
+        guid: 85bfcb00-e709-4763-93da-afa4958f4407
 
       - type: reading
         title: 2.1 Гранање
