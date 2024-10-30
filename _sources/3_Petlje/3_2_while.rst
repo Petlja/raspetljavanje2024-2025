@@ -63,7 +63,7 @@ While петља
 3
 
 
-Резиме
+Резиме 
 
 - Променљива `i` почиње са вредношћу `0`.
 
@@ -79,7 +79,7 @@ While петља
 
 Погледај следећу анимацију: 
 
-.. image:: ../../_images/dijagramtoka2.gif   
+.. image:: ../../_images/dijagramtoka4.gif   
     :width: 800 px
     :alt: alternate text 
 
