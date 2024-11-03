@@ -33,7 +33,7 @@ For петља
 
 ------------------------------------------------------
 
-.. image:: ../../_images/for.gif
+.. image:: ../../_images/for5.gif
   :width: 800
   :alt: Alternative text
   :align: center

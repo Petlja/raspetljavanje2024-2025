@@ -79,7 +79,7 @@ While петља
 
 Погледај следећу анимацију: 
 
-.. image:: ../../_images/dijagramtoka4.gif   
+.. image:: ../../_images/dijagramtoka5.gif   
     :width: 800 px
     :alt: alternate text 
 
@@ -100,7 +100,7 @@ While петља
    while True:  
        print("Ova petlja traje zauvek!")
 
-.. image:: ../../_images/whileinfinite.gif
+.. image:: ../../_images/whileinfinite1.gif
     :width: 800 px
     :alt: alternate text
 
@@ -124,7 +124,7 @@ While петља
        i = i + 1
        print(i)
 
-.. image:: ../../_images/whilebreak.png
+.. image:: ../../_images/whilebreak2.png
     :width: 800 px
     :alt: alternate text
 
@@ -141,13 +141,13 @@ While петља
    :coach:
 
    i = 0  
-   while i < 5:  
+   while i < 5:   
        i = i + 1  
        if i == 3:  
            continue  
        print(i)
 
-.. image:: ../../_images/whilecontinue.png
+.. image:: ../../_images/whilecontinue1.png
     :width: 800 px
     :alt: alternate text
 
@@ -160,7 +160,7 @@ While петља
 која потврђује да је петља завршена без прекида или за извршавање радњи које су релевантне само у случајевима када се петља заврши потпуно.
 
 
-.. activecode:: while6  
+.. activecode:: while6    
    :coach:
 
    i = 1  
@@ -171,7 +171,7 @@ While петља
        print("Петља је завршена!")
 
 
-.. image:: ../../_images/whileelse.png
+.. image:: ../../_images/whileelse2.png
     :width: 800 px
     :alt: alternate text
 
