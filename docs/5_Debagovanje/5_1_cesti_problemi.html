@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="sr-Cyrl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Чести типови проблема</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/basic.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/qchoice.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/datafile.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/dragndrop.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/fitb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/matrixeq.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/parsons.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/lib/prettify.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/poll.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/showEval.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/video.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/webgldemo.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/webglinteractive.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/karel.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/notes.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/associations.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/editor.css" />
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/flatly.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/petlja-course.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/nbstyle.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/runestonebase.js"></script>
+    <script src="../_static/skulpt.min.js"></script>
+    <script src="../_static/skulpt-stdlib.js"></script>
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/jquery.highlight.js"></script>
+    <script src="../_static/bookfuncs.js"></script>
+    <script src="../_static/codemirror.js"></script>
+    <script src="../_static/xml.js"></script>
+    <script src="../_static/css.js"></script>
+    <script src="../_static/python.js"></script>
+    <script src="../_static/htmlmixed.js"></script>
+    <script src="../_static/javascript.js"></script>
+    <script src="../_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
+    <script src="../_static/jquery_i18n/jquery.i18n.js"></script>
+    <script src="../_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
+    <script src="../_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
+    <script src="../_static/jquery_i18n/jquery.i18n.language.js"></script>
+    <script src="../_static/jquery_i18n/jquery.i18n.parser.js"></script>
+    <script src="../_static/jquery_i18n/jquery.i18n.emitter.js"></script>
+    <script src="../_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
+    <script src="../_static/activecode-i18n.en.js"></script>
+    <script src="../_static/activecode-i18n.sr-Cyrl.js"></script>
+    <script src="../_static/activecode.js"></script>
+    <script src="../_static/clike.js"></script>
+    <script src="../_static/timed_activecode.js"></script>
+    <script src="../_static/animationbase.js"></script>
+    <script src="../_static/mchoice.js"></script>
+    <script src="../_static/timedmc.js"></script>
+    <script src="../_static/timed.js"></script>
+    <script src="../_static/mchoice-i18n.en.js"></script>
+    <script src="../_static/mchoice-i18n.sr-Cyrl.js"></script>
+    <script src="../_static/clickable.js"></script>
+    <script src="../_static/timedclickable.js"></script>
+    <script src="../_static/d3.v2.min.js"></script>
+    <script src="../_static/jquery.ba-bbq.min.js"></script>
+    <script src="../_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
+    <script src="../_static/pytutor.js"></script>
+    <script src="../_static/codelens.js"></script>
+    <script src="../_static/skulpt.min.js"></script>
+    <script src="../_static/skulpt-stdlib.js"></script>
+    <script src="../_static/datafile.js"></script>
+    <script src="../_static/dragndrop.js"></script>
+    <script src="../_static/timeddnd.js"></script>
+    <script src="../_static/dragndrop-i18n.en.js"></script>
+    <script src="../_static/dragndrop-i18n.sr-Cyrl.js"></script>
+    <script src="../_static/fitb.js"></script>
+    <script src="../_static/timedfitb.js"></script>
+    <script src="../_static/fitb-i18n.en.js"></script>
+    <script src="../_static/fitb-i18n.sr-Cyrl.js"></script>
+    <script src="../_static/matrixeq.js"></script>
+    <script src="../_static/lib/prettify.js"></script>
+    <script src="../_static/lib/hammer.min.js"></script>
+    <script src="../_static/parsons.js"></script>
+    <script src="../_static/parsons-i18n.en.js"></script>
+    <script src="../_static/parsons-i18n.sr-Cyrl.js"></script>
+    <script src="../_static/timedparsons.js"></script>
+    <script src="../_static/poll.js"></script>
+    <script src="../_static/reveal.js"></script>
+    <script src="../_static/shortanswer.js"></script>
+    <script src="../_static/timed_shortanswer.js"></script>
+    <script src="../_static/showEval.js"></script>
+    <script src="../_static/tabbedstuff.js"></script>
+    <script src="../_static/runestonevideo.js"></script>
+    <script src="../_static/webglinteractive.js"></script>
+    <script src="../_static/FileSaver.min.js"></script>
+    <script src="../_static/Blob.js"></script>
+    <script src="../_static/karelCorner.js"></script>
+    <script src="../_static/karelRobot.js"></script>
+    <script src="../_static/karelWorld.js"></script>
+    <script src="../_static/karelChat.js"></script>
+    <script src="../_static/karelRobotDrawer.js"></script>
+    <script src="../_static/karelUI.js"></script>
+    <script src="../_static/karel.js"></script>
+    <script src="../_static/karel-i18n.en.js"></script>
+    <script src="../_static/karel-i18n.sr-Cyrl.js"></script>
+    <script src="../_static/notes.js"></script>
+    <script src="../_static/pygamelib-init.js"></script>
+    <script src="../_static/gallery.js"></script>
+    <script src="../_static/associations.js"></script>
+    <script src="../_static/associations-i18n.en.js"></script>
+    <script src="../_static/associations-i18n.sr-Cyrl.js"></script>
+    <script src="../_static/editor.js"></script>
+    <script src="../_static/jszip.js"></script>
+    <script src="../_static/editor-i18n.en.js"></script>
+    <script src="../_static/editor-i18n.sr-Cyrl.js"></script>
+    <script src="../_static/translations.js"></script>
+    <script src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="../_static/jquery-fix.js"></script>
+    <script src="../_static/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <script src="../_static/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../_static/bootstrap-sphinx.js"></script>
+    <script src="../_static/waypoints.min.js"></script>
+    <script src="../_static/rangy-core.js"></script>
+    <script src="../_static/rangy-textrange.js"></script>
+    <script src="../_static/rangy-cssclassapplier.js"></script>
+    <script src="../_static/user-highlights.js"></script>
+    <script src="../_static/jquery.idle-timer.js"></script>
+    <script src="../_static/processing-1.4.1.min.js"></script>
+    <script src="../_static/jquery.hotkey.js"></script>
+    <script src="../_static/jquery-migrate-1.2.1.min.js"></script>
+    <script src="../_static/course-errors.js"></script>
+    <script src="../_static/petlja.js"></script>
+    <script src="../_static/require.js"></script>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <link rel="shortcut icon" href="../_static/favicon.ico" type="image/ico" />
+    <script type="text/javascript">
+      eBookConfig = {};
+      eBookConfig.host = 'http://127.0.0.1:8000' ? 'http://127.0.0.1:8000' : 'http://127.0.0.1:8000';
+      eBookConfig.app = eBookConfig.host + '/runestone';
+      eBookConfig.ajaxURL = eBookConfig.app + '/ajax/';
+      eBookConfig.course = 'raspetljavanje2024-2025';
+      eBookConfig.logLevel = '0';
+      eBookConfig.loginRequired = 'false';
+      eBookConfig.build_info = "";
+      eBookConfig.isLoggedIn = false;
+      eBookConfig.useRunestoneServices = false;
+      eBookConfig.python3 = true;
+      eBookConfig.basecourse = 'raspetljavanje2024-2025';
+      eBookConfig.runestone_version = '';
+      eBookConfig.imagesDir = '../_images/';
+      eBookConfig.staticDir = '../_static/';
+      if (typeof (Sk) != "undefined")
+        Sk.imgPath = eBookConfig.imagesDir;
+    </script>
+
+  </head>
+
+  <body>
+
+
+
+<div id="navbar" class="content-header">
+  <div class="right-side-nav">
+    
+    <div id="usefulLinksToggle" class="useful-links-toggle">
+        <a class="dropdown-toggle dropdown-toggle-burger" role="button" href="#" id="usefulLinksDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-bars fa-2x"></i>
+        </a>
+        <div class="dropdown-menu dropdown-nav-links shadow-lg" aria-labelledby="usefulLinksDropdown" x-placement="bottom-start" style="position: absolute; transform: translate3d(-55px, 32px, 0px); top: 0px; left: 0px; will-change: transform;">
+          <div class="links-title"> Корисни линкови</div>
+          <div class="useful-link">
+            <a href="https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html" target="_blank">Sphinx Docs</a></div>
+          <div class="useful-link">
+            <a href="https://github.com/Petlja/PetljaDoc/blob/master/README.md" target="_blank">Petljadoc</a></div>
+          <div class="useful-link">
+            <a href="https://github.com/RunestoneInteractive/overview" target="_blank">Runestone Interactive</a></div>
+          
+        </div>
+    </div>
+
+    
+</div>
+
+<div class="left-side-nav">
+  <div class="course-logo-nav">
+      <a target="_blank" href="https://petlja.org">
+          <img src="../_static/img/petlja-logo-wt.svg" alt="petlja.org" id="lightPetljaLogo">
+      </a>
+  </div>
+  <div class="course-logo-nav-kabinet">
+      <a target="_blank" href="https://petlja.org/net.kabinet">
+          <img src="../_static/img/netkabinet-logo-strelica-wt.svg" alt="petlja.org" id="lightNetKabinetLogo">
+      </a>
+  </div>
+</div>
+
+
+<div class="content-header-label" id = "content-header-label" href="../">Опис овде</div>
+
+</div>
+
+
+
+
+<div class="petljaCourseContainer">
+
+<div class="petljaCourseContent">
+  
+           <div class="tableOfContent">
+            <h5> Садржај </h5>
+            </div>
+           <div>
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-1_Osnove>
+                    <h5>1. Основе</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../1_Osnove/1_1_Uvod.html><div class="studioLecture" id=activity-1_Osnove-1_1_Uvod><i class="fas fa-file-alt activity-icon"></i>1.1 Увод</div></a>
+                <a href=../1_Osnove/1_2_Instalacija_Pajtona.html><div class="studioLecture" id=activity-1_Osnove-1_2_Instalacija_Pajtona><i class="fas fa-file-alt activity-icon"></i>1.2 Инсталација Пајтона</div></a>
+                <a href=../1_Osnove/1_3_Konzola.html><div class="studioLecture" id=activity-1_Osnove-1_3_Konzola><i class="fas fa-file-alt activity-icon"></i>1.3 ИДЛЕ Пајтон и Рад у конзоли</div></a>
+                <a href=../1_Osnove/1_4_Tipovi.html><div class="studioLecture" id=activity-1_Osnove-1_4_Tipovi><i class="fas fa-file-alt activity-icon"></i>1.4 Променљиве и Типови података</div></a>
+                <a href=../1_Osnove/1_5_Unos.html><div class="studioLecture" id=activity-1_Osnove-1_5_Unos><i class="fas fa-file-alt activity-icon"></i>1.5 Унос података - input()</div></a>
+                <a href=../1_Osnove/1_6_Ispis.html><div class="studioLecture" id=activity-1_Osnove-1_6_Ispis><i class="fas fa-file-alt activity-icon"></i>1.6 Испис - print()</div></a>
+                <a href=../1_Osnove/1_7_Vezbe.html><div class="studioLecture" id=activity-1_Osnove-1_7_Vezbe><i class="fas fa-file-alt activity-icon"></i>1.7 Вежбе</div></a>
+                <a href=../1_Osnove/1_8_Domaci.html><div class="studioLecture" id=activity-1_Osnove-1_8_Domaci><i class="fas fa-file-alt activity-icon"></i>1.8 Домаћи задаци</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-2_Grananje>
+                    <h5>2. Гранање</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../2_Grananje/2_0_namena_programa.html><div class="studioLecture" id=activity-2_Grananje-2_0_namena_programa><i class="fas fa-file-alt activity-icon"></i>2.0 Зашто програмирање</div></a>
+                <a href=../2_Grananje/2_1_grananje.html><div class="studioLecture" id=activity-2_Grananje-2_1_grananje><i class="fas fa-file-alt activity-icon"></i>2.1 Гранање</div></a>
+                <a href=../2_Grananje/2_2_logicke_operacije.html><div class="studioLecture" id=activity-2_Grananje-2_2_logicke_operacije><i class="fas fa-file-alt activity-icon"></i>2.2 Логичке операције</div></a>
+                <a href=../2_Grananje/2_3_vezbe.html><div class="studioLecture" id=activity-2_Grananje-2_3_vezbe><i class="fas fa-file-alt activity-icon"></i>2.3 Вежбе</div></a>
+                <a href=../2_Grananje/2_4_domaci.html><div class="studioLecture" id=activity-2_Grananje-2_4_domaci><i class="fas fa-file-alt activity-icon"></i>2.4 Домаћи задаци</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-3_Petlje>
+                    <h5>3. Петље</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../3_Petlje/3_1_for.html><div class="studioLecture" id=activity-3_Petlje-3_1_for><i class="fas fa-file-alt activity-icon"></i>3.1 For петља</div></a>
+                <a href=../3_Petlje/3_2_while.html><div class="studioLecture" id=activity-3_Petlje-3_2_while><i class="fas fa-file-alt activity-icon"></i>3.2 While петља</div></a>
+                <a href=../3_Petlje/3_3_veza.html><div class="studioLecture" id=activity-3_Petlje-3_3_veza><i class="fas fa-file-alt activity-icon"></i>3.3 Веза између for и while петље</div></a>
+                <a href=../3_Petlje/3_4_vezbe.html><div class="studioLecture" id=activity-3_Petlje-3_4_vezbe><i class="fas fa-file-alt activity-icon"></i>3.4 Вежбе</div></a>
+                <a href=../3_Petlje/3_5_domaci.html><div class="studioLecture" id=activity-3_Petlje-3_5_domaci><i class="fas fa-file-alt activity-icon"></i>3.5 Домаћи задаци</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-4_Liste>
+                    <h5>4. Листе</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../4_Liste/4_1_liste.html><div class="studioLecture" id=activity-4_Liste-4_1_liste><i class="fas fa-file-alt activity-icon"></i>4.1 Листе</div></a>
+                <a href=../4_Liste/4_2_for_liste.html><div class="studioLecture" id=activity-4_Liste-4_2_for_liste><i class="fas fa-file-alt activity-icon"></i>4.2 For петље и итерирање кроз листу</div></a>
+                <a href=../4_Liste/4_3_vezbe.html><div class="studioLecture" id=activity-4_Liste-4_3_vezbe><i class="fas fa-file-alt activity-icon"></i>4.3 Вежбе</div></a>
+                <a href=../4_Liste/4_4_domaci.html><div class="studioLecture" id=activity-4_Liste-4_4_domaci><i class="fas fa-file-alt activity-icon"></i>4.4 Домаћи задаци</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-5_Debagovanje>
+                    <h5>5. Дебаговање</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../5_Debagovanje/5_1_cesti_problemi.html><div class="studioLecture" id=activity-5_Debagovanje-5_1_cesti_problemi><i class="fas fa-file-alt activity-icon"></i>5.1 Чести типови проблема</div></a>
+                <a href=../5_Debagovanje/5_2_error_log.html><div class="studioLecture" id=activity-5_Debagovanje-5_2_error_log><i class="fas fa-file-alt activity-icon"></i>5.2 Читање error log-а</div></a>
+                <a href=../5_Debagovanje/5_3_guglanje.html><div class="studioLecture" id=activity-5_Debagovanje-5_3_guglanje><i class="fas fa-file-alt activity-icon"></i>5.3 Гуглање</div></a>
+                <a href=../5_Debagovanje/5_4_neispravan_kod.html><div class="studioLecture" id=activity-5_Debagovanje-5_4_neispravan_kod><i class="fas fa-file-alt activity-icon"></i>5.4 Процедура приступања неисправном коду</div></a>
+                <a href=../5_Debagovanje/5_5_nepravilan_kod.html><div class="studioLecture" id=activity-5_Debagovanje-5_5_nepravilan_kod><i class="fas fa-file-alt activity-icon"></i>5.5 Процедура приступања коду који не ради правилно</div></a>
+                <a href=../5_Debagovanje/5_6_vezbe.html><div class="studioLecture" id=activity-5_Debagovanje-5_6_vezbe><i class="fas fa-file-alt activity-icon"></i>5.6 Вежбе</div></a>
+                <a href=../5_Debagovanje/5_7_domaci.html><div class="studioLecture" id=activity-5_Debagovanje-5_7_domaci><i class="fas fa-file-alt activity-icon"></i>5.7 Домаћи задаци</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-6_Vezbanje>
+                    <h5>6. Вежбање</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../6_Vezbanje/6_1_vezbe.html><div class="studioLecture" id=activity-6_Vezbanje-6_1_vezbe><i class="fas fa-file-alt activity-icon"></i>6.1 Вежбање</div></a>
+                <a href=../6_Vezbanje/6_2_domaci.html><div class="studioLecture" id=activity-6_Vezbanje-6_2_domaci><i class="fas fa-file-alt activity-icon"></i>6.2 Домаћи</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-7_Funckije>
+                    <h5>7. Функције</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../7_Funckije/7_1_funkcija.html><div class="studioLecture" id=activity-7_Funckije-7_1_funkcija><i class="fas fa-file-alt activity-icon"></i>7.1 Шта је функција</div></a>
+                <a href=../7_Funckije/7_2_koriscene_funckije.html><div class="studioLecture" id=activity-7_Funckije-7_2_koriscene_funckije><i class="fas fa-file-alt activity-icon"></i>7.2 Функције које већ користимо</div></a>
+                <a href=../7_Funckije/7_3_argumenti.html><div class="studioLecture" id=activity-7_Funckije-7_3_argumenti><i class="fas fa-file-alt activity-icon"></i>7.3 Концепт улазних аргумената</div></a>
+                <a href=../7_Funckije/7_4_funkcije.html><div class="studioLecture" id=activity-7_Funckije-7_4_funkcije><i class="fas fa-file-alt activity-icon"></i>7.4 Функције</div></a>
+                <a href=../7_Funckije/7_5_rekurzija.html><div class="studioLecture" id=activity-7_Funckije-7_5_rekurzija><i class="fas fa-file-alt activity-icon"></i>7.5 Рекурзија</div></a>
+                <a href=../7_Funckije/7_6_recnici.html><div class="studioLecture" id=activity-7_Funckije-7_6_recnici><i class="fas fa-file-alt activity-icon"></i>7.6 Речници</div></a>
+                </div>
+            </div>
+                </div>
+</div>
+
+
+
+<div class="lectureContent">
+
+  <div id="errors">
+  </div>
+  
+  <div class="lectureContentMaterial">
+  
+    <div id="main-content">
+    
+  <section id="id1">
+<h1>Чести типови проблема<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h1>
+<p><strong>Дебаговање</strong> је процес откривања и исправљања грешака у коду. Пајтон, као и сваки други програмски језик, има типичне проблеме са којима се програмери сусрећу током писања кода. Ова лекција ће покрити честе типове грешака и технике за њихово исправљање.</p>
+<p><strong>Чести типови грешака у Пајтону:</strong></p>
+<p>–</p>
+<ol class="arabic simple">
+<li><p><strong>Синтаксне грешке (SyntaxError)</strong></p></li>
+<li><p><strong>Грешке током извршавања (RuntimeError)</strong></p></li>
+<li><p><strong>Грешке типа (TypeError)</strong></p></li>
+<li><p><strong>Индексне грешке (IndexError)</strong></p></li>
+<li><p><strong>Именске грешке (NameError)</strong></p></li>
+<li><p><strong>Грешке вредности (ValueError)</strong></p></li>
+<li><p><strong>Кључне грешке (KeyError)</strong></p></li>
+<li><p><strong>Атрибутске грешке (AttributeError)</strong></p></li>
+<li><p><strong>Логичке грешке</strong></p></li>
+</ol>
+<p>—</p>
+<p><strong>1. Синтаксне грешке (SyntaxError)</strong></p>
+<p><strong>Синтаксна грешка</strong> настаје када код не прати правила Пајтона. Компилатор не разуме инструкцију јер је нешто неправилно написано.</p>
+<p><strong>Пример:</strong></p>
+
+<div data-childcomponent="debagovanje1" class="course-box course-box-problem course-content">
+
+<textarea data-component="activecode" id=debagovanje1 data-lang="python" 
+      data-timelimit=25000 data-coach="true" data-codelens="true"  
+    data-audio=''   
+               data-hidehistory=true
+       >
+print("Hello World)
+</textarea>
+</div>
+<p>Овде недостаје затварач наводника.</p>
+<p><strong>Како исправити:</strong>
+- Исправиe синтаксу према правилима Пајтона.</p>
+<p><strong>Исправка:</strong></p>
+
+<div data-childcomponent="debagovanje2" class="course-box course-box-problem course-content">
+
+<textarea data-component="activecode" id=debagovanje2 data-lang="python" 
+      data-timelimit=25000 data-coach="true" data-codelens="true"  
+    data-audio=''   
+               data-hidehistory=true
+       >
+print("Hello World")
+</textarea>
+</div>
+<p><strong>2. Грешке током извршавања (RuntimeError)</strong></p>
+<p><strong>Грешке током извршавања</strong> се јављају током извршавања програма и често настају услед ситуација као што су дељење са нулом или непостојећи фајл.</p>
+<p><strong>Пример:</strong></p>
+
+<div data-childcomponent="debagovanje3" class="course-box course-box-problem course-content">
+
+<textarea data-component="activecode" id=debagovanje3 data-lang="python" 
+      data-timelimit=25000 data-coach="true" data-codelens="true"  
+    data-audio=''   
+               data-hidehistory=true
+       >
+broj = 10 / 0
+</textarea>
+</div>
+<p>Овде ће доћи до <cite>ZeroDivisionError</cite> јер није могуће делити број са нулом.</p>
+<p><strong>Како исправити:</strong>
+- Уверите се да број са којим делите није 0.</p>
+<p><strong>Исправка:</strong></p>
+
+<div data-childcomponent="debagovanje4" class="course-box course-box-problem course-content">
+
+<textarea data-component="activecode" id=debagovanje4 data-lang="python" 
+      data-timelimit=25000 data-coach="true" data-codelens="true"  
+    data-audio=''   
+               data-hidehistory=true
+       >
+broj = 10 / 2  # или користите провере пре делјења са нулом
+</textarea>
+</div>
+<p><strong>3. Грешке типа (TypeError)</strong></p>
+<p><strong>TypeError</strong> се јавља када операција укључује неподударне типове података.</p>
+<p><strong>Пример:</strong></p>
+
+<div data-childcomponent="debagovanje5" class="course-box course-box-problem course-content">
+
+<textarea data-component="activecode" id=debagovanje5 data-lang="python" 
+      data-timelimit=25000 data-coach="true" data-codelens="true"  
+    data-audio=''   
+               data-hidehistory=true
+       >
+broj = 5 + "5"
+</textarea>
+</div>
+<p>Пајтон не може да сабере цео број (<cite>int</cite>) и стринг (<cite>str</cite>).</p>
+<p><strong>Како исправити:</strong>
+- Конвертуј стринг у цео број или обрнуто.</p>
+<p><strong>Исправка:</strong></p>
+
+<div data-childcomponent="debagovanje6" class="course-box course-box-problem course-content">
+
+<textarea data-component="activecode" id=debagovanje6 data-lang="python" 
+      data-timelimit=25000 data-coach="true" data-codelens="true"  
+    data-audio=''   
+               data-hidehistory=true
+       >
+broj = 5 + int("5")
+</textarea>
+</div>
+<p><strong>4. Индексне грешке (IndexError)</strong></p>
+<p><strong>IndexError</strong> настаје када покушате да приступите елементу из листе или низа помоћу индекса који не постоји.</p>
+<p><strong>Пример:</strong></p>
+
+<div data-childcomponent="debagovanje7" class="course-box course-box-problem course-content">
+
+<textarea data-component="activecode" id=debagovanje7 data-lang="python" 
+      data-timelimit=25000 data-coach="true" data-codelens="true"  
+    data-audio=''   
+               data-hidehistory=true
+       >
+lista = [1, 2, 3]
+print(lista[5])
+</textarea>
+</div>
+<p>Овде нема елемента на индексу 5 јер листа има само 3 елемента (индекси 0, 1, 2).</p>
+<p><strong>Како исправити:</strong>
+- Проверите да ли индекс постоји пре приступања елементу.</p>
+<p><strong>Исправка:</strong></p>
+
+<div data-childcomponent="debagovanje8" class="course-box course-box-problem course-content">
+
+<textarea data-component="activecode" id=debagovanje8 data-lang="python" 
+      data-timelimit=25000 data-coach="true" data-codelens="true"  
+    data-audio=''   
+               data-hidehistory=true
+       >
+if len(lista) > 5:
+    print(lista[5])
+else:
+    print("Индекс не постоји у листи.")
+</textarea>
+</div>
+<p><strong>5. Именске грешке (NameError)</strong></p>
+<p><strong>NameError</strong> се јавља када се покуша употребити променљива која није дефинисана или када се погрешно напише име променљиве или функције.</p>
+<p>#### <strong>Пример:</strong></p>
+
+<div data-childcomponent="debagovanje9" class="course-box course-box-problem course-content">
+
+<textarea data-component="activecode" id=debagovanje9 data-lang="python" 
+      data-timelimit=25000 data-coach="true" data-codelens="true"  
+    data-audio=''   
+               data-hidehistory=true
+       >
+print(ime)
+</textarea>
+</div>
+<p>Ако променљива <cite>ime</cite> није претходно дефинисана, настаће <cite>NameError</cite>.</p>
+<p><strong>Како исправити:</strong>
+- Уверите се да је променљива дефинисана пре коришћења.</p>
+<p><strong>Исправка:</strong></p>
+
+<div data-childcomponent="debagovanje10" class="course-box course-box-problem course-content">
+
+<textarea data-component="activecode" id=debagovanje10 data-lang="python" 
+      data-timelimit=25000 data-coach="true" data-codelens="true"  
+    data-audio=''   
+               data-hidehistory=true
+       >
+ime = "Јован"
+print(ime)
+</textarea>
+</div>
+<p><strong>6. Грешке вредности (ValueError)</strong></p>
+<p><strong>ValueError</strong> се јавља када функција добије исправан тип аргумента, али вредност није прихватљива.</p>
+<p><strong>Пример:</strong></p>
+
+<div data-childcomponent="debagovanje11" class="course-box course-box-problem course-content">
+
+<textarea data-component="activecode" id=debagovanje11 data-lang="python" 
+      data-timelimit=25000 data-coach="true" data-codelens="true"  
+    data-audio=''   
+               data-hidehistory=true
+       >
+broj = int("abc")
+</textarea>
+</div>
+<p>Овде покушавамо да конвертујемо стринг који не садржи број у цео број, што изазива <cite>ValueError</cite>.</p>
+<p><strong>Како исправити:</strong>
+- Провери да ли је вредност исправног формата пре конверзије.</p>
+<p><strong>Исправка:</strong></p>
+
+<div data-childcomponent="debagovanje12" class="course-box course-box-problem course-content">
+
+<textarea data-component="activecode" id=debagovanje12 data-lang="python" 
+      data-timelimit=25000 data-coach="true" data-codelens="true"  
+    data-audio=''   
+               data-hidehistory=true
+       >
+broj_str = "123"
+broj = int(broj_str)
+</textarea>
+</div>
+<p><strong>7. Кључне грешке (KeyError)</strong></p>
+<p><strong>KeyError</strong> се јавља када покушавате да приступите неком кључу у речнику који не постоји.</p>
+<p><strong>Пример:</strong></p>
+
+<div data-childcomponent="debagovanje13" class="course-box course-box-problem course-content">
+
+<textarea data-component="activecode" id=debagovanje13 data-lang="python" 
+      data-timelimit=25000 data-coach="true" data-codelens="true"  
+    data-audio=''   
+               data-hidehistory=true
+       >
+reci = {"име": "Јован", "године": 30}
+print(reci["адреса"])
+</textarea>
+</div>
+<p>Овде речник нема кључ под називом <cite>„адреса”</cite>, што изазива <cite>KeyError</cite>.</p>
+<p><strong>Како исправити:</strong>
+- Проверите да ли кључ постоји у речнику пре приступања.</p>
+<p><strong>Исправка:</strong></p>
+
+<div data-childcomponent="debagovanje14" class="course-box course-box-problem course-content">
+
+<textarea data-component="activecode" id=debagovanje14 data-lang="python" 
+      data-timelimit=25000 data-coach="true" data-codelens="true"  
+    data-audio=''   
+               data-hidehistory=true
+       >
+if "адреса" in reci:
+    print(reci["адреса"])
+else:
+    print("Кључ не постоји у речнику.")
+</textarea>
+</div>
+<p><strong>8. Атрибутске грешке (AttributeError)</strong></p>
+<p><strong>AttributeError</strong> се јавља када објекат нема одређени атрибут или метод који покушавамо да користимо.</p>
+<p><strong>Пример:</strong></p>
+
+<div data-childcomponent="debagovanje15" class="course-box course-box-problem course-content">
+
+<textarea data-component="activecode" id=debagovanje15 data-lang="python" 
+      data-timelimit=25000 data-coach="true" data-codelens="true"  
+    data-audio=''   
+               data-hidehistory=true
+       >
+lista = [1, 2, 3]
+lista.append(4)
+lista.upper()
+</textarea>
+</div>
+<p>Овде долази до <cite>AttributeError</cite> јер листе немају метод <cite>upper()</cite>.</p>
+<p><strong>Како исправити:</strong>
+- Проверите који методи и атрибути су доступни за одређени објекат.</p>
+<p><strong>Исправка:</strong></p>
+
+<div data-childcomponent="debagovanje16" class="course-box course-box-problem course-content">
+
+<textarea data-component="activecode" id=debagovanje16 data-lang="python" 
+      data-timelimit=25000 data-coach="true" data-codelens="true"  
+    data-audio=''   
+               data-hidehistory=true
+       >
+tekst = "здраво"
+tekst.upper()  # Ово ради јер стрингови имају метод upper()
+</textarea>
+</div>
+<p><strong>9. Логичке грешке</strong></p>
+<p><strong>Логичке грешке</strong> се јављају када програм ради без грешке, али не даје очекиване резултате. Оне су најтеже за проналажење јер не изазивају прекид програма.</p>
+<p><strong>Пример:</strong></p>
+
+<div data-childcomponent="debagovanje17" class="course-box course-box-problem course-content">
+
+<textarea data-component="activecode" id=debagovanje17 data-lang="python" 
+      data-timelimit=25000 data-coach="true" data-codelens="true"  
+    data-audio=''   
+               data-hidehistory=true
+       >
+brojevi = [1, 2, 3, 4, 5]
+suma = 0
+
+for broj in brojevi:
+    suma = broj  # Грешка: требало је да додамо број на суму, а не да га заменимо
+
+print(suma)
+</textarea>
+</div>
+<p>Овде програм не даје грешку, али резултат суме је погрешан јер се вредност суме замењује уместо да се сабира.</p>
+<p><strong>Како исправити:</strong>
+- Исправи логику програма.</p>
+<p><strong>Исправка:</strong></p>
+
+<div data-childcomponent="debagovanje18" class="course-box course-box-problem course-content">
+
+<textarea data-component="activecode" id=debagovanje18 data-lang="python" 
+      data-timelimit=25000 data-coach="true" data-codelens="true"  
+    data-audio=''   
+               data-hidehistory=true
+       >
+for broj in brojevi:
+    suma += broj  # Исправно сабирање
+
+print(suma)
+</textarea>
+</div>
+<p><strong>Технике дебаговања у Пајтону:</strong></p>
+<p>–</p>
+<ol class="arabic simple">
+<li><p><strong>Исписивање порука (print debugging)</strong>: Једноставно додавање <cite>print()</cite> израза у код на кључним местима како бисте видели ток извршавања и вредности променљивих.</p></li>
+</ol>
+
+<div data-childcomponent="debagovanje19" class="course-box course-box-problem course-content">
+
+<textarea data-component="activecode" id=debagovanje19 data-lang="python" 
+      data-timelimit=25000 data-coach="true" data-codelens="true"  
+    data-audio=''   
+               data-hidehistory=true
+       >
+print(f"Тренутна вредност: {suma}")
+</textarea>
+</div>
+<ol class="arabic simple" start="2">
+<li><p><strong>Коришћење дебагера</strong>: Уграђени модул <cite>pdb</cite> у Пајтону омогућава корак-по-корак извршавање кода и праћење промена у вредностима.</p></li>
+</ol>
+
+<div data-childcomponent="debagovanje20" class="course-box course-box-problem course-content">
+
+<textarea data-component="activecode" id=debagovanje20 data-lang="python" 
+      data-timelimit=25000 data-coach="true" data-codelens="true"  
+    data-audio=''   
+               data-hidehistory=true
+       >
+import pdb
+pdb.set_trace()
+</textarea>
+</div>
+<ol class="arabic simple" start="3">
+<li><p><strong>Изузеци и обрада грешака</strong>: Коришћење блока <cite>try-except</cite> за хватање и обраду изузетака у коду.</p></li>
+</ol>
+
+<div data-childcomponent="debagovanje21" class="course-box course-box-problem course-content">
+
+<textarea data-component="activecode" id=debagovanje21 data-lang="python" 
+      data-timelimit=25000 data-coach="true" data-codelens="true"  
+    data-audio=''   
+               data-hidehistory=true
+       >
+try:
+    broj = int("abc")
+except ValueError:
+    print("Није могуће конвертовати стринг у број.")
+</textarea>
+</div>
+<p>Дебаговање је важан део процеса програмирања. Честе грешке као што су синтаксне, индексне, именске и логичке грешке могу се релативно лако уочити и исправити.</p>
+</section>
+
+
+    </div>
+    
+    <div>
+<div class="lecture-prev-next-toggle">
+  <a  href="index.html" id="prevLectureLink" class="lecture-toggler-arrows"><i class="fas fa-arrow-left fa"></i> <span> Претходна лекција </span> </a>
+  
+  <a id="nextLectureLink" class="lecture-toggler-arrows"><span> Следећа лекција</span>  <i class="fas fa-arrow-right fa"></i> </a>
+</div>
+
+<script type="text/javascript">
+  $('#relations-prev').tooltip({'placement':'right', 'selector': '', 'delay': { show: 100, hide: 50}});
+  $('#relations-next').tooltip({'placement':'left', 'selector': '', 'delay': { show: 100, hide: 50}});
+</script>
+</div>
+
+    
+  </div>
+</div>
+
+<div class="petljadoc-resources">
+  <span class="pull-left">(Created using  <a href="https://pypi.org/project/Sphinx/">Swinx</a>, <a href="http://runestoneinteractive.org/">RunestoneComponents</a> and <a href="https://github.com/Petlja/PetljaDoc">PetljaDoc</a>) <br> © 2022 Petlja</span>
+</div>
+
+
+<div class="lectureToolbox">
+
+  <label class="font-size-toggle" id="fontSizeToggle">
+
+      <i class="fas fa-font"></i><label>Слова</label>
+  </label>
+  <div class="font-change d-none" id="fontChangeModal">
+      <span class="dec-letter-icon" id="decLetterIcon">A-</span>
+      <label id="currentFontSize">16</label>
+      <span class="inc-letter-icon" id="incLetterIcon">A+</span>
+  </div>
+</div>
+
+</div>
+
+  </body>
+</html>

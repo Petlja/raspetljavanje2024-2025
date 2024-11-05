@@ -1,0 +1,367 @@
+courseId: raspetljavanje2024-2025
+description:
+  externalLinks:
+  - href: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
+    text: Sphinx Docs
+  - href: https://github.com/Petlja/PetljaDoc/blob/master/README.md
+    text: Petljadoc
+  - href: https://github.com/RunestoneInteractive/overview
+    text: Runestone Interactive
+  longDescription: 'Опис овде
+
+    '
+  requirements:
+  - Инсталиран Пајтон
+  shortDescription: Опис овде
+  toc:
+  - Intro to Petljadoc INDEX.yaml
+  willLearn:
+  - Програмирање у Пајтону
+lang: sr-Cyrl
+lessons:
+- activities:
+  - description: ''
+    file: 1_1_Uvod.html
+    guid: 2ebc5a0b-8b2c-49ac-a301-437d59fa7aa0
+    normalized_title: 1.1 Увод
+    problems: []
+    src: 1_1_Uvod.rst
+    title: 1.1 Увод
+    type: reading
+  - description: ''
+    file: 1_2_Instalacija_Pajtona.html
+    guid: 71c00155-f7f3-410d-8019-e88d22cb7f01
+    normalized_title: 1.2 Инсталација Пајтона
+    problems: []
+    src: 1_2_Instalacija_Pajtona.rst
+    title: 1.2 Инсталација Пајтона
+    type: reading
+  - description: ''
+    file: 1_3_Konzola.html
+    guid: 87292e57-d71e-44ed-9c82-681db776c601
+    normalized_title: 1.3 ИДЛЕ Пајтон и Рад у конзоли
+    problems: []
+    src: 1_3_Konzola.rst
+    title: 1.3 ИДЛЕ Пајтон и Рад у конзоли
+    type: reading
+  - description: ''
+    file: 1_4_Tipovi.html
+    guid: dd96bf63-e558-4540-95a6-00b96e45e3ef
+    normalized_title: 1.4 Променљиве и Типови података
+    problems: []
+    src: 1_4_Tipovi.rst
+    title: 1.4 Променљиве и Типови података
+    type: reading
+  - description: ''
+    file: 1_5_Unos.html
+    guid: 212f4a1a-e0d7-4171-a691-e3284822b6b1
+    normalized_title: 1.5 Унос података - input()
+    problems: []
+    src: 1_5_Unos.rst
+    title: 1.5 Унос података - input()
+    type: reading
+  - description: ''
+    file: 1_6_Ispis.html
+    guid: cf8c08d6-711c-443d-9098-a8f2fe147d45
+    normalized_title: 1.6 Испис - print()
+    problems: []
+    src: 1_6_Ispis.rst
+    title: 1.6 Испис - print()
+    type: reading
+  - description: ''
+    file: 1_7_Vezbe.html
+    guid: 2947ad11-cce1-47dd-a996-9bac19050194
+    normalized_title: 1.7 Вежбе
+    problems: []
+    src: 1_7_Vezbe.rst
+    title: 1.7 Вежбе
+    type: reading
+  - description: ''
+    file: 1_8_Domaci.html
+    guid: 662e03e5-68bd-4b70-ab9b-3099c39d0da8
+    normalized_title: 1.8 Домаћи задаци
+    problems: []
+    src: 1_8_Domaci.rst
+    title: 1.8 Домаћи задаци
+    type: reading
+  archived-activities: []
+  description: ''
+  folder: 1_Osnove
+  guid: c2c651cd-53d9-4a3d-ba4f-650b8422f0bc
+  normalized_title: 1. Основе
+  title: 1. Основе
+- activities:
+  - description: ''
+    file: 2_0_namena_programa.html
+    guid: 85bfcb00-e709-4763-93da-afa4958f4407
+    normalized_title: 2.0 Зашто програмирање
+    problems: []
+    src: 2_0_namena_programa.rst
+    title: 2.0 Зашто програмирање
+    type: reading
+  - description: ''
+    file: 2_1_grananje.html
+    guid: 6bed1b9e-2b42-40a5-a88d-3df4641917a8
+    normalized_title: 2.1 Гранање
+    problems: []
+    src: 2_1_grananje.rst
+    title: 2.1 Гранање
+    type: reading
+  - description: ''
+    file: 2_2_logicke_operacije.html
+    guid: e620fc84-fef9-4b8e-a5ce-2a64a4272fc0
+    normalized_title: 2.2 Логичке операције
+    problems: []
+    src: 2_2_logicke_operacije.rst
+    title: 2.2 Логичке операције
+    type: reading
+  - description: ''
+    file: 2_3_vezbe.html
+    guid: 44454acf-afad-4a86-832d-329e9fead350
+    normalized_title: 2.3 Вежбе
+    problems: []
+    src: 2_3_vezbe.rst
+    title: 2.3 Вежбе
+    type: reading
+  - description: ''
+    file: 2_4_domaci.html
+    guid: 99c8c5d2-24d7-4075-9fb8-ba55d41a3326
+    normalized_title: 2.4 Домаћи задаци
+    problems: []
+    src: 2_4_domaci.rst
+    title: 2.4 Домаћи задаци
+    type: reading
+  archived-activities: []
+  description: ''
+  folder: 2_Grananje
+  guid: e301c6dd-f29e-454f-bce1-23c705e257b1
+  normalized_title: 2. Гранање
+  title: 2. Гранање
+- activities:
+  - description: ''
+    file: 3_1_for.html
+    guid: 2b5e7478-1251-4b46-8345-75adfb83f7fe
+    normalized_title: 3.1 For петља
+    problems: []
+    src: 3_1_for.rst
+    title: 3.1 For петља
+    type: reading
+  - description: ''
+    file: 3_2_while.html
+    guid: 9b570f5b-8ef8-4158-9f67-2c9d75b0bd59
+    normalized_title: 3.2 While петља
+    problems: []
+    src: 3_2_while.rst
+    title: 3.2 While петља
+    type: reading
+  - description: ''
+    file: 3_3_veza.html
+    guid: d43fae51-95bc-4238-9e3b-9fed2fcb087c
+    normalized_title: 3.3 Веза између for и while петље
+    problems: []
+    src: 3_3_veza.rst
+    title: 3.3 Веза између for и while петље
+    type: reading
+  - description: ''
+    file: 3_4_vezbe.html
+    guid: b5b8a141-d5a5-479d-bf7c-7558b9d54469
+    normalized_title: 3.4 Вежбе
+    problems: []
+    src: 3_4_vezbe.rst
+    title: 3.4 Вежбе
+    type: reading
+  - description: ''
+    file: 3_5_domaci.html
+    guid: 59b728b6-4878-426e-935c-a6cff94a3a16
+    normalized_title: 3.5 Домаћи задаци
+    problems: []
+    src: 3_5_domaci.rst
+    title: 3.5 Домаћи задаци
+    type: reading
+  archived-activities: []
+  description: ''
+  folder: 3_Petlje
+  guid: ecc6cf85-c5ec-4829-b5d8-56a35d31bffc
+  normalized_title: 3. Петље
+  title: 3. Петље
+- activities:
+  - description: ''
+    file: 4_1_liste.html
+    guid: 917399cf-5b08-452e-990f-265dd54be3af
+    normalized_title: 4.1 Листе
+    problems: []
+    src: 4_1_liste.rst
+    title: 4.1 Листе
+    type: reading
+  - description: ''
+    file: 4_2_for_liste.html
+    guid: 90968aa9-09d9-4a54-9bbd-100c2b6d2c1f
+    normalized_title: 4.2 For петље и итерирање кроз листу
+    problems: []
+    src: 4_2_for_liste.rst
+    title: 4.2 For петље и итерирање кроз листу
+    type: reading
+  - description: ''
+    file: 4_3_vezbe.html
+    guid: 99c3e64d-824a-44c2-97a7-dce987dba31b
+    normalized_title: 4.3 Вежбе
+    problems: []
+    src: 4_3_vezbe.rst
+    title: 4.3 Вежбе
+    type: reading
+  - description: ''
+    file: 4_4_domaci.html
+    guid: 1d531413-2350-4238-b219-72a0a2006762
+    normalized_title: 4.4 Домаћи задаци
+    problems: []
+    src: 4_4_domaci.rst
+    title: 4.4 Домаћи задаци
+    type: reading
+  archived-activities: []
+  description: ''
+  folder: 4_Liste
+  guid: a70c7ea5-0f3e-4b96-ae9c-c0d55e7c9f24
+  normalized_title: 4. Листе
+  title: 4. Листе
+- activities:
+  - description: ''
+    file: 5_1_cesti_problemi.html
+    guid: 4606b66a-3de8-455a-b7e9-474642280f84
+    normalized_title: 5.1 Чести типови проблема
+    problems: []
+    src: 5_1_cesti_problemi.rst
+    title: 5.1 Чести типови проблема
+    type: reading
+  - description: ''
+    file: 5_2_error_log.html
+    guid: 2fb457e0-e164-4753-b4a6-e03245ad1069
+    normalized_title: 5.2 Читање error log-а
+    problems: []
+    src: 5_2_error_log.rst
+    title: 5.2 Читање error log-а
+    type: reading
+  - description: ''
+    file: 5_3_guglanje.html
+    guid: 6c9b4932-dbcd-4b4a-bfcd-e4d282bd0e33
+    normalized_title: 5.3 Гуглање
+    problems: []
+    src: 5_3_guglanje.rst
+    title: 5.3 Гуглање
+    type: reading
+  - description: ''
+    file: 5_4_neispravan_kod.html
+    guid: 4a00a9f3-2d39-4a86-bd45-d9fc720d01df
+    normalized_title: 5.4 Процедура приступања неисправном коду
+    problems: []
+    src: 5_4_neispravan_kod.rst
+    title: 5.4 Процедура приступања неисправном коду
+    type: reading
+  - description: ''
+    file: 5_5_nepravilan_kod.html
+    guid: 7e2069c4-c213-430c-91e2-1eb0a8084601
+    normalized_title: 5.5 Процедура приступања коду који не ради правилно
+    problems: []
+    src: 5_5_nepravilan_kod.rst
+    title: 5.5 Процедура приступања коду који не ради правилно
+    type: reading
+  - description: ''
+    file: 5_6_vezbe.html
+    guid: 0b0032f8-3b86-42cf-83f9-9d034684eccc
+    normalized_title: 5.6 Вежбе
+    problems: []
+    src: 5_6_vezbe.rst
+    title: 5.6 Вежбе
+    type: reading
+  - description: ''
+    file: 5_7_domaci.html
+    guid: aa527b29-61a5-42a4-b8fe-4095efcd5c77
+    normalized_title: 5.7 Домаћи задаци
+    problems: []
+    src: 5_7_domaci.rst
+    title: 5.7 Домаћи задаци
+    type: reading
+  archived-activities: []
+  description: ''
+  folder: 5_Debagovanje
+  guid: 614142b7-7e45-449a-b227-284e9cfcc1d5
+  normalized_title: 5. Дебаговање
+  title: 5. Дебаговање
+- activities:
+  - description: ''
+    file: 6_1_vezbe.html
+    guid: a5634a23-f654-4be5-847e-714c764df8e5
+    normalized_title: 6.1 Вежбање
+    problems: []
+    src: 6_1_vezbe.rst
+    title: 6.1 Вежбање
+    type: reading
+  - description: ''
+    file: 6_2_domaci.html
+    guid: 9e29a85a-8c4b-4d30-9b2c-ca463220504d
+    normalized_title: 6.2 Домаћи
+    problems: []
+    src: 6_2_domaci.rst
+    title: 6.2 Домаћи
+    type: reading
+  archived-activities: []
+  description: ''
+  folder: 6_Vezbanje
+  guid: 82d01a3b-cc9a-4568-b17c-a97259f70727
+  normalized_title: 6. Вежбање
+  title: 6. Вежбање
+- activities:
+  - description: ''
+    file: 7_1_funkcija.html
+    guid: 60d6c74e-520c-45a2-b62b-dc7670a7d9e6
+    normalized_title: 7.1 Шта је функција
+    problems: []
+    src: 7_1_funkcija.rst
+    title: 7.1 Шта је функција
+    type: reading
+  - description: ''
+    file: 7_2_koriscene_funckije.html
+    guid: 63b57ae0-dbb4-4cbc-b9e8-d15c3fcccf3e
+    normalized_title: 7.2 Функције које већ користимо
+    problems: []
+    src: 7_2_koriscene_funckije.rst
+    title: 7.2 Функције које већ користимо
+    type: reading
+  - description: ''
+    file: 7_3_argumenti.html
+    guid: 1b092396-b03b-4154-9a12-98b93cb6b60f
+    normalized_title: 7.3 Концепт улазних аргумената
+    problems: []
+    src: 7_3_argumenti.rst
+    title: 7.3 Концепт улазних аргумената
+    type: reading
+  - description: ''
+    file: 7_4_funkcije.html
+    guid: 24fd3140-95ba-4d65-8c60-85003dce8c2c
+    normalized_title: 7.4 Функције
+    problems: []
+    src: 7_4_funkcije.rst
+    title: 7.4 Функције
+    type: reading
+  - description: ''
+    file: 7_5_rekurzija.html
+    guid: 50b2d178-00d4-43c0-901c-b976918ec3db
+    normalized_title: 7.5 Рекурзија
+    problems: []
+    src: 7_5_rekurzija.rst
+    title: 7.5 Рекурзија
+    type: reading
+  - description: ''
+    file: 7_6_recnici.html
+    guid: 640b08d6-1cb4-487d-a410-57e7a4b2c627
+    normalized_title: 7.6 Речници
+    problems: []
+    src: 7_6_recnici.rst
+    title: 7.6 Речници
+    type: reading
+  archived-activities: []
+  description: ''
+  folder: 7_Funckije
+  guid: 5efac7ef-4429-49ba-bc79-8fa9f7bb15cf
+  normalized_title: 7. Функције
+  title: 7. Функције
+title: расПЕТЉАвање 3.0
