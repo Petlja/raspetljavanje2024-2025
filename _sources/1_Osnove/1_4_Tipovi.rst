@@ -81,22 +81,22 @@
 
 
 
+<<<<<<< Updated upstream
 
 
 Како нам фиока користи?
 ------------------------
+=======
+==========================
+Променљиве као фиока 
+==========================
+>>>>>>> Stashed changes
 
 - Можемо да прикажемо шта се налази у фиоци. За то нам користи наредба print(broj) где је broj име фиоке или променљиве
 
 - Можемо да променимо садржај фиоке наредбом доделе "=", broj=5
 
 - Можемо да се питамо да ли се у фиоци налази одређени податак оператором "==", на пример broj==10 (Да ли се у фиоци налази broj 10)? 
-
-
-.. image:: ../../_images/fioka.png
-   :width: 200 px 
-   :align: center
-   :alt: alternate text
 
 
 .. infonote::
@@ -134,12 +134,22 @@
 
 Замислите да имамо следећи код:
 
+.. activecode:: promenljive1
 
+<<<<<<< Updated upstream
 .. code-block:: python
 
    x = 1
    x = 2
    x = 3
+=======
+   x = 1
+   print(x)
+   x = 2
+   print(x)
+   x = 3
+   print(x)
+>>>>>>> Stashed changes
 
 
 .. questionnote::
@@ -160,13 +170,13 @@
 
 Погледај следећу анимацију:
 
-.. image:: ../../_images/promenljive.gif
+.. image:: ../../_images/promenljive2.gif
    :width: 800 px
    :alt: alternate text
 
 Променљиву користимо навођењем њеног имена:
 
-.. activecode:: promenljive1
+.. activecode:: promenljive10
 
    
    ime = "Marija"
@@ -319,6 +329,10 @@ Python такође подржава операције са реалним бр
    print(netacno)
 
 
+<<<<<<< Updated upstream
+=======
+===================
+>>>>>>> Stashed changes
 Логичке вредности
 ------------------
 

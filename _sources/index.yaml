@@ -83,7 +83,10 @@ lessons:
     folder: 2_Grananje
     activities:
     
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
       - type: reading
         title: 2.1 Гранање
         file: 2_1_grananje.rst
