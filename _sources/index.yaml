@@ -83,10 +83,6 @@ lessons:
     folder: 2_Grananje
     activities:
     
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
       - type: reading
         title: 2.1 Гранање
         file: 2_1_grananje.rst
@@ -114,28 +110,23 @@ lessons:
     activities:
 
       - type: reading
-        title: 3.1 For петља
-        file: 3_1_for.rst
+        title: 3.1 While петља 
+        file: 3_1_while.rst
         guid: 2b5e7478-1251-4b46-8345-75adfb83f7fe
 
       - type: reading
-        title: 3.2 While петља
-        file: 3_2_while.rst
+        title: 3.2 For петља
+        file: 3_2_for.rst
         guid: 9b570f5b-8ef8-4158-9f67-2c9d75b0bd59
 
       - type: reading
-        title: 3.3 Веза између for и while петље 
-        file: 3_3_veza.rst
-        guid: d43fae51-95bc-4238-9e3b-9fed2fcb087c
-
-      - type: reading
-        title: 3.4 Вежбе
-        file: 3_4_vezbe.rst
+        title: 3.3 Вежбе
+        file: 3_3_vezbe.rst
         guid: b5b8a141-d5a5-479d-bf7c-7558b9d54469
 
       - type: reading
-        title: 3.5 Домаћи задаци
-        file: 3_5_domaci.rst
+        title: 3.4 Домаћи задаци
+        file: 3_4_domaci.rst
         guid: 59b728b6-4878-426e-935c-a6cff94a3a16
         
   - title: 4. Листе

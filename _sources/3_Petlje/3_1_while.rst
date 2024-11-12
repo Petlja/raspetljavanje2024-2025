@@ -94,8 +94,8 @@ While петља
 сигнал или услов за заустављање.
 
 
-.. activecode:: while3  
-   :coach:
+.. code:: while3  
+   
 
    while True:  
        print("Ova petlja traje zauvek!")
