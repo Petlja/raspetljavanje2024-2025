@@ -248,32 +248,57 @@ lessons:
         file: 7_6_recnici.rst
         guid: 640b08d6-1cb4-487d-a410-57e7a4b2c627
 
-#  - title: 8. Вежбање
-#    guid: d07d1d0d-0cef-49bb-a2e0-d87410850af8
-#    description: 
-#    folder: 8_Vezbanje
-#    activities:
+  - title: 8. Вежбање
+    guid: d07d1d0d-0cef-49bb-a2e0-d87410850af8
+    description: 
+    folder: 8_Vezbanje
+    activities:
 
-#  - title: 9. Вежбање
-#    guid: ffa7a423-5503-4d04-9455-352e5164c731
-#    description: 
-#    folder: 9_Vezbanje
-#    activities:
+      - type: reading
+        title: 8.1 Placeholder
+        file: placeholder_3.rst
+        guid: 6fc847b9-cc9f-459c-9679-ae801b1a804b
 
-#  - title: 10. Матрице
-#    guid: 946b05db-c7d0-4e1b-8fc1-45ae80df1ca7
-#    description: 
-#    folder: 10_Matrice
-#    activities:
+  - title: 9. Вежбање
+    guid: 01f793f7-510f-47d9-a2c6-d558588a12fb
+    description: 
+    folder: 9_Vezbanje
+    activities:
 
-#  - title: 11. Вежбање
-#    guid: ffa7a423-5503-4d04-9455-352e5164c731
-#    description: 
-#    folder: 11_Vezbanje
-#    activities:
+      - type: reading
+        title: 9.1 Placeholder
+        file: placeholder_2.rst
+        guid: 8092f79b-efb5-4b7f-80b7-81918a024b56
 
-#  - title: 12. Вежбање
-#    guid: ffa7a423-5503-4d04-9455-352e5164c731
-#    description: 
-#    folder: 12_Vezbanje
-#    activities:
+  - title: 10. Матрице
+    guid: 946b05db-c7d0-4e1b-8fc1-45ae80df1ca7
+    description: 
+    folder: 10_Matrice
+    activities:
+
+      - type: reading
+        title: 10.1 Placeholder
+        file: placeholder_1.rst
+        guid: 53446961-fc21-4b62-8073-c7759921ffe6
+
+  - title: 11. Вежбање
+    guid: 930ed43d-1bdc-41c6-8eac-8c6567f1f778
+    description: 
+    folder: 11_Vezbanje
+    activities:
+
+      - type: reading
+        title: 11.1 Placeholder
+        file: placeholder_4.rst
+        guid: 42a3445e-205e-4589-8228-08ca562fca27
+
+  - title: 12. Вежбање
+    guid: bf09a7bd-9787-44dd-a5be-80af988ae62e
+    description: 
+    folder: 12_Vezbanje
+    activities:
+
+      - type: reading
+        title: 12.1 Placeholder
+        file: placeholder_5.rst
+        guid: 569d8728-ee2f-48b4-b164-64ec1b0300ae
