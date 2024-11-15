@@ -145,34 +145,6 @@
     :alt: alternate text
 
 
-.. infonote::
-  
-    У пајтону се блокови кода одвајају **индентацијом** (размацима који се најчешће формирају коришћењем дугмета **tab**). 
-    Уколико желимо да напишемо блок кода који ће се извршити уколико је услов тачан, морамо га увући у односу на `if` наредбу. 
-    Сваки блок кода почиње са **двотачком** и наредбом и завршава се када се вратимо на почетну раван.
-
-    Пример:
-  
-    .. code-block:: python
-  
-        if uslov:
-            # ovaj kod se nalazi unutar if bloka
-        #ovaj kod se nalaazi van if bloka
-
-    .. code-block:: python
-  
-        if uslov1:
-            # prvi blok koda
-            if uslov2:
-                # drugi blok koda
-            # izlazimo iz drugog bloka koda i nastavljamo izvrsaavanje prvog bloka koda
-        # izlazimo iz prvog bloka koda i nastavljamo glavni blok koda
-
-    Kod koji se nalazi van `if` наредбе се увек извршава, док се код који се налази унутар `if` наредбе извршава само ако је услов тачан.
-
-Вишеструке гране: `if`, `elif`, и `else`
------------------------------------------
-
 Наредба *else*
 ```````````````
 
@@ -297,8 +269,34 @@
 Последњи услов у овом случају не морамо да проверавамо јер ако број није већи ли једнак од 40 онда је сигурно мањи од 40.
 
 
-Наредба *elif*
-``````````````````
+Вишеструке гране: `if`, `elif`, и `else`
+-----------------------------------------
+
+.. infonote::
+  
+    У пајтону се блокови кода одвајају **индентацијом** (размацима који се најчешће формирају коришћењем дугмета **tab**). 
+    Уколико желимо да напишемо блок кода који ће се извршити уколико је услов тачан, морамо га увући у односу на `if` наредбу. 
+    Сваки блок кода почиње са **двотачком** и наредбом и завршава се када се вратимо на почетну раван.
+
+    Пример:
+  
+    .. code-block:: python
+  
+        if uslov:
+            # ovaj kod se nalazi unutar if bloka
+        #ovaj kod se nalaazi van if bloka
+
+    .. code-block:: python
+  
+        if uslov1:
+            # prvi blok koda
+            if uslov2:
+                # drugi blok koda
+            # izlazimo iz drugog bloka koda i nastavljamo izvrsaavanje prvog bloka koda
+        # izlazimo iz prvog bloka koda i nastavljamo glavni blok koda
+
+    Kod koji se nalazi van `if` наредбе се увек извршава, док се код који се налази унутар `if` наредбе извршава само ако је услов тачан.
+
 
 Приметимо да у се у прошлом раду много пута понавља наредба `else` коју прати наредба `if`. Да бисмо уредили код можемо користити наредбу `elif`. 
 Ова наредба се понаша као `else` и `if` у једном. Блок кода који се налази под `elif` наредбом ће се извршити само ако **није испуњен** услов `if` команде 
