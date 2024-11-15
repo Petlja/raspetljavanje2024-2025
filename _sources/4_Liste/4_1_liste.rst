@@ -34,6 +34,7 @@
    brojevi = [1, 2, 3, 4, 5]
    ime_filmova = ["Titanik", "Господар прстенова", "Матрикс"]
    mesovita_lista = [23, "Јован", True, 3.14]
+   print(brojevi, ime_filmova, mesovita_lista)
 
 
 .. infonote:: У горњим примерима:
@@ -108,8 +109,8 @@
 3. **del** – Брише елемент са одређене позиције.
 4. **clear()** – Уклања све елементе из листе.
 
-.. activecode:: liste5
-   :coach:
+.. code-block:: python
+   
    
    
    filmovi = ["Титаник", "Господар прстенова", "Матрикс"]

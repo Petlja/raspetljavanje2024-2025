@@ -119,7 +119,7 @@ While петља
 
    i = 1  
    while True:  
-       if broj == 3:  
+       if i == 3:  
            break  
        i = i + 1
        print(i)

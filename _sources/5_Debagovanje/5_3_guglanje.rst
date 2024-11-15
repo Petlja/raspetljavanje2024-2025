@@ -1,40 +1,38 @@
 Гуглање
 =====================
 
-**Debagovanje putem Guglanja**
+**Дебаговање путем Гуглања**
 
-Kada pišemo programe, ponekad naiđemo na greške koje ne možemo lako da rešimo. U takvim situacijama, često možemo dobiti pomoć od interneta, posebno putem pretrage na Guglu. U ovoj lekciji, naučićemo kako da koristimo Gugla za debagovanje naših programa.
+Када пишемо програме, понекад наиђемо на грешке које не можемо лако да решимо. У таквим ситуацијама, често можемо добити помоћ од интернета, посебно путем претраге на Гуглу. У овој лекцији, научићемо како да користимо Гугла за дебаговање наших програма.
 
---
 
-**Zašto guglanje?**
 
-Guglanje može biti veoma korisno jer:
+**Зашто гуглање?**
 
-1. **Pristup ogromnom znanju**: Na internetu postoji mnogo članaka, vodiča i foruma gde su ljudi već razgovarali o sličnim problemima.
-2. **Brzo pronalaženje rešenja**: Umesto da trošite vreme razmišljajući o grešci, možete brzo pronaći rešenje putem pretrage.
-3. **Razumevanje greške**: Čitanjem informacija o grešci možete bolje razumeti zašto se desila i kako da je izbegnete u budućnosti.
+Гуглање може бити веома корисно јер:
 
---
+1. **Приступ огромном знању**: На интернету постоји много чланака, водича и форума где су људи већ разговарали о сличним проблемима.
+2. **Брзо проналажење решења**: Уместо да трошите време размишљајући о грешци, можете брзо пронаћи решење путем претраге.
+3. **Разумевање грешке**: Читањем информација о грешци можете боље разумети зашто се десила и како да је избегнете у будућности.
 
-**Kako guglanje može pomoći?**
 
-1. **Identifikujte grešku**: Kada dobijete poruku o grešci, zabeležite je. Na primer, ako dobijete grešku poput `IndexError: list index out of range`, to može biti vaša pretraga.
+**Како гуглање може помоћи?**
+
+1. **Идентификујте грешку**: Када добијете поруку о грешци, забележите је. На пример, ако добијете грешку попут `IndexError: list index out of range`, то може бити ваша претрага.
    
-2. **Koristite specifične ključne reči**: Umesto da pretražujete samo reč "greška", koristite celokupnu poruku o grešci. To može uključivati i naziv programskog jezika, npr. "Pajton IndexError: list index out of range".
+2. **Користите специфичне кључне речи**: Уместо да претражујете само реч "грешка", користите целокупну поруку о грешци. То може укључивати и назив програмског језика, нпр. "Python IndexError: list index out of range".
 
-3. **Pretražujte uz pomoć foruma**: Web stranice poput Stack Overflow-a su odlične za postavljanje pitanja i pregledanje rešenja koja su drugi korisnici pronašli.
+3. **Претражујте уз помоћ форума**: Wеб странице попут Stack Overflow-а су одличне за постављање питања и прегледање решења која су други корисници пронашли.
 
-4. **Pogledajte tutorijale i blogove**: Mnogi programeri i edukatori postavljaju sadržaje koji objašnjavaju uobičajene greške i kako ih rešiti. Ovi resursi su često veoma korisni.
+4. **Погледајте туторијале и блогове**: Многи програмери и едукатори постављају садржаје који објашњавају уобичајене грешке и како их решити. Ови ресурси су често веома корисни.
 
-5. **Korišćenje dokumentacije za pajton**
+5. **Коришћење документације за пајтон**
 
 
---
 
-**Primer: Kako koristiti guglanje za rešavanje greške**
+**Пример: Како користити гуглање за решавање грешке**
 
-Zamislimo da imamo sledeći kod koji izaziva grešku:
+Замислимо да имамо следећи код који изазива грешку:
 
 .. activecode:: guglanje1
    :coach:
@@ -43,22 +41,24 @@ Zamislimo da imamo sledeći kod koji izaziva grešku:
    print(lista[3])
 
 
-Kada pokrenemo ovaj kod, dobićemo grešku:
+Када покренемо овај код, добићемо грешку:
 
-IndexError: list index out of range
-
-
-**Koraci za guglanje:**
-
-1. **Zabeležite grešku**: `IndexError: list index out of range`.
+.. code-block:: python
    
-2. **Guglanje**: U pretragu upišite "Pajton IndexError: list index out of range".
+   IndexError: list index out of range
 
-3. **Pregledajte rezultate**: Prvi rezultati će vas obično odvesti na forume ili blogove gde drugi korisnici objašnjavaju ovu grešku.
 
-4. **Pročitajte rešenja**: Naći ćete objašnjenja kao što su "Greška se dešava kada pokušate da pristupite indeksu koji ne postoji u listi. U ovom slučaju, lista ima 3 elementa, a indeksi su 0, 1, i 2."
+**Кораци за гуглање:**
 
-5. **Ispravite grešku**: U ovom slučaju, možete promeniti kod tako da pristupite indeksu 2 umesto 3:
+1. **Забележите грешку**: `IndexError: list index out of range`.
+   
+2. **Гуглање**: У претрагу упишите "Python IndexError: list index out of range".
+
+3. **Прегледајте резултате**: Први резултати ће вас обично одвести на форуме или блогове где други корисници објашњавају ову грешку.
+
+4. **Прочитајте решења**: Наћи ћете објашњења као што су "Грешка се дешава када покушате да приступите индексу који не постоји у листи. У овом случају, листа има 3 елемента, а индекси су 0, 1, и 2."
+
+5. **Исправите грешку**: У овом случају, можете променити код тако да приступите индексу 2 уместо 3:
 
 .. activecode:: guglanje2
    :coach:
@@ -67,7 +67,6 @@ IndexError: list index out of range
    print(lista[2])  # Ovo će ispravno ispisati 3
 
 
---
 
 
-Debugovanje putem guglanja je veština koja može značajno olakšati rešavanje problema u programima. Kroz pretragu poruka o greškama i korišćenje resursa dostupnih na internetu, možete brzo doći do rešenja i naučiti više o programiranju. Uvek zapamtite, niste sami – internet je tu da vam pomogne!
+Дебуговање путем гуглања је вештина која може значајно олакшати решавање проблема у програмима. Кроз претрагу порука о грешкама и коришћење ресурса доступних на интернету, можете брзо доћи до решења и научити више о програмирању. Увек запамтите, нисте сами – интернет је ту да вам помогне!
