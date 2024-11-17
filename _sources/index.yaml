@@ -234,18 +234,13 @@ lessons:
         guid: 1b092396-b03b-4154-9a12-98b93cb6b60f
 
       - type: reading
-        title: 7.4 Функције
-        file: 7_4_funkcije.rst
-        guid: 24fd3140-95ba-4d65-8c60-85003dce8c2c
-
-      - type: reading
-        title: 7.5 Рекурзија
-        file: 7_5_rekurzija.rst
+        title: 7.4 Рекурзија
+        file: 7_4_rekurzija.rst
         guid: 50b2d178-00d4-43c0-901c-b976918ec3db
 
       - type: reading
-        title: 7.6 Речници
-        file: 7_6_recnici.rst
+        title: 7.5 Речници
+        file: 7_5_recnici.rst
         guid: 640b08d6-1cb4-487d-a410-57e7a4b2c627
 
   - title: 8. Вежбање
@@ -255,8 +250,8 @@ lessons:
     activities:
 
       - type: reading
-        title: 8.1 Placeholder
-        file: placeholder_3.rst
+        title: 8.1 Vežbanje
+        file: vezbanje_8.rst
         guid: 6fc847b9-cc9f-459c-9679-ae801b1a804b
 
   - title: 9. Вежбање
@@ -266,8 +261,8 @@ lessons:
     activities:
 
       - type: reading
-        title: 9.1 Placeholder
-        file: placeholder_2.rst
+        title: 9.1 Vežbanje
+        file: vezbanje_9.rst
         guid: 8092f79b-efb5-4b7f-80b7-81918a024b56
 
   - title: 10. Матрице
@@ -277,8 +272,8 @@ lessons:
     activities:
 
       - type: reading
-        title: 10.1 Placeholder
-        file: placeholder_1.rst
+        title: 10.1 Матрице
+        file: matrice.rst
         guid: 53446961-fc21-4b62-8073-c7759921ffe6
 
   - title: 11. Вежбање
@@ -288,8 +283,8 @@ lessons:
     activities:
 
       - type: reading
-        title: 11.1 Placeholder
-        file: placeholder_4.rst
+        title: 11.1 Vežbanje
+        file: vezbanje_11.rst
         guid: 42a3445e-205e-4589-8228-08ca562fca27
 
   - title: 12. Вежбање
@@ -299,6 +294,6 @@ lessons:
     activities:
 
       - type: reading
-        title: 12.1 Placeholder
-        file: placeholder_5.rst
+        title: 12.1 Vežbanje
+        file: vezbanje_12.rst
         guid: 569d8728-ee2f-48b4-b164-64ec1b0300ae
