@@ -120,7 +120,7 @@
                 if celija == 0:
                     broj_prohodnih += 1
 
-        print("Укупно проходних ћелија:", broj_prohodnih)
+        print("Укупно проходних ћелија:", broj_prohodnih    )
 
 
 
