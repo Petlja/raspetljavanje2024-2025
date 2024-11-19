@@ -146,11 +146,7 @@
    последње додељене вредности.
 
 
-Погледај следећу анимацију:
 
-.. image:: ../../_images/promenljive2.gif
-   :width: 800 px
-   :alt: alternate text
 
 Променљиву користимо навођењем њеног имена:
 
@@ -391,6 +387,25 @@ Python такође подржава операције са реалним бр
    rezultat = (x <= y)  # Враћа True
    print(rezultat)
   
+Погледај следећу анимацију која приказује разлику између оператора доделе и оператора поређења:
+
+.. image:: ../../_images/promenljive2.gif
+   :width: 800 px
+   :alt: alternate text
+
+Покрени следећи код и види како се вредност променљиве мења: 
+
+.. activecode:: tipovi_animacija
+
+   broj1 = 5 # promenljvoj broj1 dodeljujemo vrednost 5
+   broj2 = 10 # promenljvoj broj2 dodeljujemo vrednost 10
+   broj3 = 19 # promenljvoj broj3dodeljujemo vrednost 15
+
+   print(broj1, broj2, broj3) # pristupamo vrednostima smeštenim u promenljivima po njihovim imenima
+   print(broj1==5, broj1==10) # koristimo operator poređenja da proverimo da li je vrednost promenljive broj1 5 ili 10 
+
+   broj1 = 10 # promeljivoj broj1 operatorom dodele dodeljujemo novu vrednost, 10 
+   print(broj1) # pristupamo vrednosti promeljive broj1, koja je sada 10 
 
 Конверзија између типова података  
 ----------------------------------

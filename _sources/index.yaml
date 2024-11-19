@@ -276,6 +276,11 @@ lessons:
         file: matrice.rst
         guid: 53446961-fc21-4b62-8073-c7759921ffe6
 
+      - type: reading
+        title: 10.2 Вежбање
+        file: 10_2_vezbanje.rst
+        guid: cce35b02-ba6d-4889-ba80-c40e894b3fb8
+
   - title: 11. Вежбање
     guid: 930ed43d-1bdc-41c6-8eac-8c6567f1f778
     description: 
