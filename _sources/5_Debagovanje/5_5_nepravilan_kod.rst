@@ -47,8 +47,8 @@ NameError: name 'x' is not defined
 
 Пример Кода који не ради правилно
 
-.. activecode:: argumenti1010
-   :coach:
+.. code-block::  argumenti1010
+   
 
    x = 10
    y = 0
@@ -84,8 +84,8 @@ ZeroDivisionError: division by zero
 
 Решење је једноставно: проверити да ли је `y` нула пре извршавања дељења. То можемо урадити додатном провером:
 
-.. activecode:: argumenti1011
-   :coach:
+.. code-block:: argumenti1011
+   
 
    if y != 0:
        rezultat = x / y
