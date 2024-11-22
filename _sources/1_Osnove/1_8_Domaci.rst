@@ -74,3 +74,49 @@
 
 **Пример излаза:**
 `4321`
+
+
+
+Задатак 6
+----------  
+
+Porodica Petrović planira letovanje. Ako znamo da im je dnevno potrebno 100EUR za troškove, proveriti da li će im budžet biti dovoljan 
+za planirani broj dana.
+
+**Ulaz:**  
+- Budžet (u dolarima)  
+- Broj dana  
+
+**Izlaz:** Da/Ne  
+
+
+
+
+Задатак 7
+----------
+  
+Uneti broj se proverava da li je deljiv sa 3, 5 ili 15, ili ni sa jednim od ovih brojeva.  
+
+**Ulaz:** Broj  
+
+**Izlaz:**  
+- Deljiv je sa 3  
+- Deljiv je sa 5  
+- Deljiv je sa 15  
+- Nije deljiv ni sa 3, ni sa 5  
+
+
+
+
+Задатак 8
+---------- 
+
+Čika Milivoje ima bazen u dvorištu. Koristi dve pumpe, pri čemu prva pumpa puni \( x \) litara na sat, a druga \( y \) litara na sat. 
+Ako znamo zapreminu bazena \( V \), izračunati za koliko sati će ga napuniti.  
+
+**Ulaz:**  
+- \( V \) (zapremina bazena u litrima)  
+- \( x \) (prva pumpa u lit/h)  
+- \( y \) (druga pumpa u lit/h)  
+
+**Izlaz:** Broj sati (celobrojna vrednost)  
