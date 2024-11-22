@@ -115,8 +115,8 @@ Uneti broj se proverava da li je deljiv sa 3, 5 ili 15, ili ni sa jednim od ovih
 Ako znamo zapreminu bazena \( V \), izračunati za koliko sati će ga napuniti.  
 
 **Ulaz:**  
-- \( V \) (zapremina bazena u litrima)  
-- \( x \) (prva pumpa u lit/h)  
-- \( y \) (druga pumpa u lit/h)  
+- V (zapremina bazena u litrima)  
+- x (prva pumpa u lit/h)  
+- y (druga pumpa u lit/h)  
 
 **Izlaz:** Broj sati (celobrojna vrednost)  
