@@ -111,8 +111,8 @@ Uneti broj se proverava da li je deljiv sa 3, 5 ili 15, ili ni sa jednim od ovih
 Задатак 8
 ---------- 
 
-Čika Milivoje ima bazen u dvorištu. Koristi dve pumpe, pri čemu prva pumpa puni \( x \) litara na sat, a druga \( y \) litara na sat. 
-Ako znamo zapreminu bazena \( V \), izračunati za koliko sati će ga napuniti.  
+Čika Milivoje ima bazen u dvorištu. Koristi dve pumpe, pri čemu prva pumpa puni x litara na sat, a druga y litara na sat. 
+Ako znamo zapreminu bazena V, izračunati za koliko sati će ga napuniti.  
 
 **Ulaz:**  
 - V (zapremina bazena u litrima)  
