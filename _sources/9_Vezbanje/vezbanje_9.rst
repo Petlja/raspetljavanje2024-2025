@@ -33,11 +33,11 @@
 
 Objašnjenje:
 
-1. Funkcija `zapis(x, y)` pretvara oba broja \( x \) i \( y \) u stringove kako bi im se mogla pristupiti svaka cifra.
+1. Funkcija `zapis(x, y)` pretvara oba broja x i y u stringove kako bi im se mogla pristupiti svaka cifra.
 
 2. Koristi se funkcija `sorted()` za sortiranje cifara oba broja.
 
-3. Ako su sortirane cifre oba broja iste, funkcija vraća \( 1 \), što znači da brojevi koriste iste cifre. U suprotnom, vraća \( 0 \).
+3. Ako su sortirane cifre oba broja iste, funkcija vraća 1, što znači da brojevi koriste iste cifre. U suprotnom, vraća 0.
 
 4. Program zatim učitava dva broja i ispisuje odgovarajući rezultat na osnovu funkcije `zapis(x, y)`.   
 
@@ -78,10 +78,10 @@ Objašnjenje:
 
 1. Funkcija `par_nepar(n)` prvo koristi `str(abs(n))` kako bi broj pretvorila u string i ignorisala negativni znak ako postoji (kako bi se izbegle greške sa negativnim brojevima)
 
-2. Zatim proverava svaku cifru u stringu. Ako se dve uzastopne cifre (u paru) ponašaju na isti način (obje su parne ili obe su neparne), vraća \( 0 \), što znači da cifre nisu 
+2. Zatim proverava svaku cifru u stringu. Ako se dve uzastopne cifre (u paru) ponašaju na isti način obe su parne ili obe su neparne, vraća 0, što znači da cifre nisu 
 naizmenično parne i neparne
 
-3. Ako su sve cifre naizmenično parne i neparne, funkcija vraća \( 1 \)
+3. Ako su sve cifre naizmenično parne i neparne, funkcija vraća 1
 
 4. Program koristi ovu funkciju da proveri uneti broj i ispiše odgovarajući rezultat
 
@@ -123,9 +123,10 @@ naizmenično parne i neparne
 
 Objašnjenje:
 
-1. Funkcija `romb(n)` prvo proverava da li je \( n \) pozitivan broj. Ako nije, ispisuje poruku o grešci
+1. Funkcija `romb(n)` prvo proverava da li je n pozitivan broj. Ako nije, ispisuje poruku o grešci
 
-2. Prvi deo funkcije iscrtava gornji deo romba. To se radi tako što za svaki red broj zvezda raste od 1 ka \( 2n-1 \), a broj praznog prostora na početku svakog reda opada
+2. Prvi deo funkcije iscrtava gornji deo romba. To se radi tako što za svaki red broj zvezda raste od 1 ka 2n-1, a broj praznog prostora na početku svakog 
+reda opada
 
 3. Drugi deo funkcije iscrtava donji deo romba, sličan gornjem, ali obrnuto (redukovano za jedan red)
 

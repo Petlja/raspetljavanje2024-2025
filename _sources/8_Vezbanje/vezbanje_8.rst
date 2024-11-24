@@ -315,7 +315,7 @@ Evo programa koji testira sve funkcije koje smo prethodno napisali:
 
 Objašnjenje:
 
-1. Program testira svaku od funkcija: kvadrat, apsolutnu vrednost, kub, stepen i Fibonacci niz
+1. Program testira svaku od funkcija: kvadrat, apsolutnu vrednost, kub, stepen i Fibonaci niz
 
 2. Za svaku funkciju korisnik unosi odgovarajući broj ili vrednosti, a zatim program ispisuje rezultat
 
