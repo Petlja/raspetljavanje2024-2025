@@ -52,10 +52,11 @@ Rešenje bez liste:
 
 Objašnjenje:
 
-- U prvom rešenju, koristimo Pythonovu funkciju `min` na listi koja sadrži brojeve 
+U prvom rešenju, koristimo Pythonovu funkciju `min` na listi koja sadrži brojeve 
+
 1. Funkcija `zapis(x, y)` pretvara oba broja x i y u stringove kako bi im se mogla pristupiti svaka cifra.
 
-- U drugom rešenju, ručno pronalazimo najmanju vrednost pomoću if-uslova 
+U drugom rešenju, ručno pronalazimo najmanju vrednost pomoću if-uslova 
 
 Oba programa omogućavaju unos tri broja i ispisuju najmanji broj korišćenjem odgovarajuće funkcije.
 3. Ako su sortirane cifre oba broja iste, funkcija vraća 1, što znači da brojevi koriste iste cifre. U suprotnom, vraća 0.
