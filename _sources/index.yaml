@@ -103,42 +103,43 @@ lessons:
         file: 2_4_domaci.rst
         guid: 99c8c5d2-24d7-4075-9fb8-ba55d41a3326
 
-  - title: 3. Вежбање - основе и гранање
-    guid: 930ed43d-1bdc-41c6-8eac-8c6567f1f778
-    description: 
-    folder: 3_vezbanje
-    activities:
-
-      - type: reading
-        title: 3.1 Vežbanje
-        file: vezbanje_3.rst
-        guid: 42a3445e-205e-4589-8228-08ca562fca27
       
-  - title: 4. Петље
+  - title: 3. Петље
     guid: ecc6cf85-c5ec-4829-b5d8-56a35d31bffc
     description: 
-    folder: 4_Petlje
+    folder: 3_Petlje
     activities:
 
       - type: reading
-        title: 4.1 While петља 
-        file: 4_1_while.rst
+        title: 3.1 While петља 
+        file: 3_1_while.rst
         guid: 2b5e7478-1251-4b46-8345-75adfb83f7fe
 
       - type: reading
-        title: 4.2 For петља
-        file: 4_2_for.rst
+        title: 3.2 For петља
+        file: 3_2_for.rst
         guid: 9b570f5b-8ef8-4158-9f67-2c9d75b0bd59
 
       - type: reading
-        title: 4.3 Вежбе
-        file: 4_3_vezbe.rst
+        title: 3.3 Вежбе
+        file: 3_3_vezbe.rst
         guid: b5b8a141-d5a5-479d-bf7c-7558b9d54469
 
       - type: reading
-        title: 4.4 Домаћи задаци
-        file: 4_4_domaci.rst
+        title: 3.4 Домаћи задаци
+        file: 3_4_domaci.rst
         guid: 59b728b6-4878-426e-935c-a6cff94a3a16
+
+  - title: 4. Вежбање - основе, гранање и петље
+    guid: 930ed43d-1bdc-41c6-8eac-8c6567f1f778
+    description: 
+    folder: 4_vezbanje
+    activities:
+
+      - type: reading
+        title: 4.1 Vežbanje
+        file: vezbanje_4.rst
+        guid: 42a3445e-205e-4589-8228-08ca562fca27
         
   - title: 5. Листе
     guid: a70c7ea5-0f3e-4b96-ae9c-c0d55e7c9f24
