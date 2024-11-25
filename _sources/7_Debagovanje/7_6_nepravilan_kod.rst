@@ -47,7 +47,7 @@ NameError: name 'x' is not defined
 
 Пример Кода који не ради правилно
 
-.. code-block::  argumenti1010
+.. code-block::  python
    
 
    x = 10
@@ -84,7 +84,7 @@ ZeroDivisionError: division by zero
 
 Решење је једноставно: проверити да ли је `y` нула пре извршавања дељења. То можемо урадити додатном провером:
 
-.. code-block:: argumenti1011
+.. code-block:: python
    
 
    if y != 0:
