@@ -106,7 +106,7 @@ lessons:
   - title: 3. Вежбање - основе и гранање
     guid: 930ed43d-1bdc-41c6-8eac-8c6567f1f778
     description: 
-    folder: 3_Vezbanje
+    folder: 3_vezbanje
     activities:
 
       - type: reading
