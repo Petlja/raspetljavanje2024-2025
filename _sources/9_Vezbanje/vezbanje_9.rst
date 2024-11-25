@@ -89,7 +89,7 @@ Objašnjenje:
 3. Korisnik unosi broj koji se zatim prosleđuje funkciji, a rezultat se ispisuje.
  
 
-Možete koristiti ovu funkciju za izračunavanje kvadrata bilo kog broja, uključujući cele brojeve i decimalne vrednosti.   
+Možete koristiti ovu funkciju za izračunavanje kvadrata bilo kog broja, uključujući cele brojeve i decimalne vrednosti.    
    
  
 .. questionnote :: 
