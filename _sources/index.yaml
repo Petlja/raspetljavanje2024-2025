@@ -137,7 +137,7 @@ lessons:
     activities:
 
       - type: reading
-        title: 4.1 Vežbanje
+        title: 4.1 Вежбање
         file: vezbanje_4.rst
         guid: 42a3445e-205e-4589-8228-08ca562fca27
         
@@ -294,7 +294,7 @@ lessons:
     activities:
 
       - type: reading
-        title: 11.1 Vežbanje
+        title: 11.1 Вежбање
         file: vezbanje_11.rst
         guid: 569d8728-ee2f-48b4-b164-64ec1b0300ae
 
@@ -305,6 +305,6 @@ lessons:
     activities:
 
       - type: reading
-        title: 12.1 Vežbanje
+        title: 12.1 Вежбање
         file: vezbanje_12.rst
         guid: 8092f79b-efb5-4b7f-80b7-81918a024b56
