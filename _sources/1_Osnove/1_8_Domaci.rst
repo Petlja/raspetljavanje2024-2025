@@ -23,7 +23,7 @@
 
 Група ученика иде на излет, а учитељица мора да организује превоз. Постоји аутобус који може да прими максимално 50 ученика. 
 Напиши програм који ће прочитати број ученика са стандардног улаза и исписати колико је аутобуса потребно да би се превезли 
-сви ученици као и број ученика у последњем аутобују.
+сви ученици, као и број ученика у последњем аутобусу.
 
 |
 
@@ -37,8 +37,8 @@
 ----------
 
 Направити програм који рачуна плату радника. Радник се плаћа по сату све док не достигне 40 радних сати недељно. 
-Ако радник пређе 40 радних сати прековремени сати се не плаћају. Плата по сату је 200 динара. 
-Програм треба да прочита број радних сати у неделји са стандардног улаза и да испише колико је радник зарадио.
+Ако радник пређе 40 радних сати, прековремени сати се не плаћају. Плата по сату је 200 динара. 
+Програм треба да прочита број радних сати у недељи са стандардног улаза и да испише колико је радник зарадио.
 
 |
 
@@ -80,11 +80,11 @@
 Задатак 6
 ----------  
 
-Porodica Petrović planira letovanje. Ako znamo da im je dnevno potrebno 100EUR za troškove, proveriti da li će im budžet biti dovoljan 
-za planirani broj dana.
+Породица Петровић планира летовање. Ако знамо да им је дневно потребно 100 евра за трошкове, проверити да ли ће им буџет бити довољан 
+за планирани број дана.
 
 **Ulaz:**  
-- Budžet (u dolarima)  
+- Budžet (u evrima)  KOMENTAR: /Stajalo je "Budžet (u dolarima)". Da li je to značilo da je potrebna konverzija EUR-USD, ili samo previd?/
 - Broj dana  
 
 **Izlaz:** Da/Ne  
@@ -95,7 +95,7 @@ za planirani broj dana.
 Задатак 7
 ----------
   
-Uneti broj se proverava da li je deljiv sa 3, 5 ili 15, ili ni sa jednim od ovih brojeva.  
+Унети број се проверава да ли је дељив са 3, 5 или 15, или ни са једним од ових бројева. 
 
 **Ulaz:** Broj  
 
@@ -111,8 +111,9 @@ Uneti broj se proverava da li je deljiv sa 3, 5 ili 15, ili ni sa jednim od ovih
 Задатак 8
 ---------- 
 
-Čika Milivoje ima bazen u dvorištu. Koristi dve pumpe, pri čemu prva pumpa puni x litara na sat, a druga y litara na sat. 
-Ako znamo zapreminu bazena V, izračunati za koliko sati će ga napuniti.  
+Чика Миливоје има базен у дворишту. Користи две пумпе, при чему прва пумпа пуни x литара на сат, а друга y литара на сат. 
+Ако знамо запремину базена V, израчунати за колико сати ће га напунити.  
+
 
 **Ulaz:**  
 - V (zapremina bazena u litrima)  
