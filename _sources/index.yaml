@@ -133,12 +133,12 @@ lessons:
   - title: 4. Вежбање - основе, гранање и петље
     guid: 930ed43d-1bdc-41c6-8eac-8c6567f1f778
     description: 
-    folder: 4_vezbanje
+    folder: 4_Vezbanje
     activities:
 
       - type: reading
         title: 4.1 Вежбање
-        file: vezbanje_4.rst
+        file: 4_1_vezbanje.rst
         guid: 42a3445e-205e-4589-8228-08ca562fca27
         
   - title: 5. Листе
