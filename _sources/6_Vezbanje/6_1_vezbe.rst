@@ -41,6 +41,7 @@
 .. learnmorenote:: Решење
 
     .. code-block:: python
+        
         # Унос температура за сваки дан у недељи
         temperatures = []
         for i in range(7):
