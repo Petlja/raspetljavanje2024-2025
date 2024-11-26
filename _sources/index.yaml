@@ -140,6 +140,11 @@ lessons:
         title: 4.1 Вежбање
         file: 4_1_vezbanje.rst
         guid: 42a3445e-205e-4589-8228-08ca562fca27
+
+      - type: reading
+        title: 4.2 Домаћи
+        file: 4_2_domaci.rst
+        guid: a44588b5-3d61-4684-a14e-b719015d8d7a
         
   - title: 5. Листе
     guid: a70c7ea5-0f3e-4b96-ae9c-c0d55e7c9f24

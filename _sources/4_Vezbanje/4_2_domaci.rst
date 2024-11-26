@@ -1,245 +1,214 @@
-.. Zadatak 1: Prikupljanje donacija
-.. questionnote::
+Домаћи задаци
+:::::::::::::
 
-    **Priča:** Organizacija prikuplja donacije za izgradnju škole. Potrebno je zabeležiti koliko donatora je dalo više od proseka, kao i ukupnu sumu svih donacija.
+Задатак 1: Прикупљање донација
+`````````````````````````````````
 
-    **Zadatak:** 
-    Unesi iznose donacija (npr. 100, 200, 300, 400, 500). Izračunaj:
-    
-    1. Ukupan iznos donacija.
-    2. Prosečan iznos donacija.
-    3. Broj donatora koji su dali više od proseka.
+Организација прикуплја донације за изграднју школе. 
+Потребно је забележити колико донатора је дало више од просека, као и укупну суму свих донација.
 
-.. activecode:: donacije
-    :coach:
+**Задатак:** 
 
-    # DOPUNI
+Унеси износе донација (нпр. 100, 200, 300, 400, 500). Израчунај:
 
-**Primer 1**:
+1. Укупан износ донација.
+2. Просечан износ донација.
+3. Број донатора који су дали више од просека.
 
-**Ulaz**:
+**Пример 1**:
+
+**Улаз**:
+
 100, 200, 300, 400, 500
 
-**Izlaz**:
-Ukupan iznos donacija: 1500  
-Prosečan iznos donacija: 300.0  
-Broj donatora koji su dali više od proseka: 2  
+**Излаз**:
 
-**Primer 2**:
+Укупан износ донација: 1500  
 
-**Ulaz**:
+Просечан износ донација: 300.0  
+
+Број донатора који су дали више од просека: 2  
+
+**Пример 2**:
+
+**Улаз**:
+
 50, 150, 250, 350, 450  
 
-**Izlaz**:
-Ukupan iznos donacija: 1250  
-Prosečan iznos donacija: 250.0  
-Broj donatora koji su dali više od proseka: 2  
+**Излаз**:
 
-**Primer 3**:
+Укупан износ донација: 1250  
 
-**Ulaz**:
+Просечан износ донација: 250.0  
+
+Број донатора који су дали више од просека: 2  
+
+**Пример 3**:
+
+**Улаз**:
+
 500, 600, 700, 800, 900  
 
-**Izlaz**:
-Ukupan iznos donacija: 3500  
-Prosečan iznos donacija: 700.0  
-Broj donatora koji su dali više od proseka: 2  
+**Излаз**:
 
-.. learnmorenote:: **Rešenje**
+Укупан износ донација: 3500  
 
-    .. code-block:: python
+Просечан износ донација: 700.0  
 
-        donacije = [100, 200, 300, 400, 500]
-        ukupno = sum(donacije)  # Izračunavanje ukupne sume donacija
-        prosek = ukupno / len(donacije)  # Prosečna donacija
-        iznad_proseka = sum(1 for d in donacije if d > prosek)  # Donatori iznad proseka
+Број донатора који су дали више од просека: 2  
 
-        print("Ukupan iznos donacija:", ukupno)
-        print("Prosečan iznos donacija:", prosek)
-        print("Broj donatora koji su dali više od proseka:", iznad_proseka)
+Задатак 2: Одређиванје победника
+`````````````````````````````````
 
+У трци је учествовало неколико учесника. Њихово време завршетка је записано у секундама.
 
-.. Zadatak 2: Određivanje pobednika
-.. questionnote::
+**Задатак:** 
 
-    **Priča:** U trci je učestvovalo nekoliko učesnika. Njihovo vreme završetka je zapisano u sekundama.
+Унеси времена завршетка (нпр. 12.3, 11.5, 13.7, 10.9, 11.1). Пронађи:
 
-    **Zadatak:** 
-    Unesi vremena završetka (npr. 12.3, 11.5, 13.7, 10.9, 11.1). Pronađi:
-    
-    1. Ko je pobedio.
-    2. Koliko je iznosilo pobedničko vreme.
+1. Ко је победио.
+2. Колико је износило победничко време.
 
-.. activecode:: odredjivanje_pobednika
-    :coach:
+**Пример 1**:
 
-    # DOPUNI
+**Улаз**:
 
-**Primer 1**:
-
-**Ulaz**:
 12.3, 11.5, 13.7, 10.9, 11.1  
 
-**Izlaz**:
-Pobednik je učesnik broj: 4  
-Njegovo vreme je: 10.9 sekundi  
+**Излаз**:
 
-**Primer 2**:
+Победник је учесник број: 4  
 
-**Ulaz**:
+Нјегово време је: 10.9 секунди  
+
+**Пример 2**:
+
+**Улаз**:
+
 15.2, 14.8, 15.6, 14.5, 15.0  
 
-**Izlaz**:
-Pobednik je učesnik broj: 4  
-Njegovo vreme je: 14.5 sekundi  
+**Излаз**:
 
-**Primer 3**:
+Победник је учесник број: 4  
 
-**Ulaz**:
+Нјегово време је: 14.5 секунди  
+
+**Пример 3**:
+
+**Улаз**:
+
 9.8, 10.1, 9.5, 10.2, 10.0  
 
-**Izlaz**:
-Pobednik je učesnik broj: 3  
-Njegovo vreme je: 9.5 sekundi  
+**Излаз**:
 
-.. learnmorenote:: **Rešenje**
+Победник је учесник број: 3  
 
-    .. code-block:: python
+Нјегово време је: 9.5 секунди  
 
-        vremena = [12.3, 11.5, 13.7, 10.9, 11.1]
-        pobednicko_vreme = min(vremena)  # Najmanje vreme
-        pobednik = vremena.index(pobednicko_vreme) + 1  # Pronalaženje pobednika (indeks + 1)
+Задатак 3: Магична врата
+````````````````````````
 
-        print("Pobednik je učesnik broj:", pobednik)
-        print("Njegovo vreme je:", pobednicko_vreme, "sekundi")
+У древном храму постоје магична врата која се отварају само ако унесеш бројеве `а` и `б` тако да је збир њихових цифара једнак `к`.
 
+**Задатак:** 
 
-.. Zadatak 3: Магична врата
-.. questionnote::
+Напиши програм који проверава све парове бројева од 1 до `н` и исписује оне који испуњавају услов.
 
-    **Опис:** 
-    У древном храму постоје магична врата која се отварају само ако унесеш бројеве `a` и `b` тако да је збир њихових цифара једнак `k`.
+**Улаз:**
 
-    **Задатак:** 
-    Напиши програм који проверава све парове бројева од 1 до `n` и исписује оне који испуњавају услов.
+- `н`: Максимална вредност броја.
+- `к`: Циљни збир цифара.
 
-    **Улаз:**
-    - `n`: Максимална вредност броја.
-    - `k`: Циљни збир цифара.
+**Излаз:**
 
-    **Излаз:**
-    Сви парови бројева `(a, b)` који испуњавају услов.
+Сви парови бројева `(а, б)` који испуњавају услов.
 
-.. activecode:: magicna_vrata
-    :coach:
+**Пример 1**:
 
-    # DOPUNI
+**Улаз**:
 
-**Primer 1**:
+н = 10, к = 5  
 
-**Ulaz**:
-n = 10, k = 5  
+**Излаз**:
 
-**Izlaz**:
 (1, 4)  
+
 (2, 3)  
 
-**Primer 2**:
+**Пример 2**:
 
-**Ulaz**:
-n = 15, k = 6  
+**Улаз**:
 
-**Izlaz**:
+н = 15, к = 6  
+
+**Излаз**:
+
 (3, 3)  
+
 (4, 2)  
+
 (5, 1)  
 
-**Primer 3**:
+**Пример 3**:
 
-**Ulaz**:
-n = 20, k = 7  
+**Улаз**:
 
-**Izlaz**:
+н = 20, к = 7  
+
+**Излаз**:
+
 (3, 4)  
+
 (4, 3)  
+
 (5, 2)  
+
 (6, 1)  
 
-.. learnmorenote:: **Rešenje**
+Задатак 4: Ротирање стринга
+```````````````````````````
 
-    .. code-block:: python
+Дат је стринг `С` и број `К`. Напиши програм који ротира сваки карактер у стрингу `К` позиција у азбуци. Ако `К` пређе крај азбуке, наставља се од почетка.
 
-        def zbir_cifara(broj):
-            zbir = 0
-            while broj > 0:
-                zbir += broj % 10
-                broj //= 10
-            return zbir
+**Пример:** 
 
-        n = 50  # Primer: Maksimalna vrednost
-        k = 5   # Primer: Ciljni zbroj
+- Ако је `С="абц"` и `К=3`, излаз би био `"деф"`.
 
-        for a in range(1, n + 1):
-            for b in range(1, n + 1):
-                if zbir_cifara(a) + zbir_cifara(b) == k:
-                    print(f"({a}, {b})")
+**Улаз:**
 
+- `С`: Стринг.
+- `К`: Број за ротирање.
 
-.. Zadatak 4: Ротирање стринга
-.. questionnote::
+**Излаз:** 
 
-    **Опис:** 
-    Дат је стринг `S` и број `K`. Напиши програм који ротира сваки карактер у стрингу `K` позиција у азбуци. Ако `K` пређе крај азбуке, наставља се од почетка.
+Шифровани стринг.
 
-    **Пример:** 
-    - Ако је `S="abc"` и `K=3`, излаз би био `"def"`.
+**Пример 1**:
 
-    **Улаз:**
-    - `S`: Стринг.
-    - `K`: Број за ротирање.
+**Улаз**:
 
-    **Излаз:** 
-    Шифровани стринг.
+С = "абц", К = 3  
 
-.. activecode:: rotacija_stringa
-    :coach:
+**Излаз**:
 
-    # DOPUNI
+"деф"  
 
-**Primer 1**:
+**Пример 2**:
 
-**Ulaz**:
-S = "abc", K = 3  
+**Улаз**:
 
-**Izlaz**:
-"def"  
+С = "xyз", К = 2  
 
-**Primer 2**:
+**Излаз**:
 
-**Ulaz**:
-S = "xyz", K = 2  
+"заб"  
 
-**Izlaz**:
-"zab"  
+**Пример 3**:
 
-**Primer 3**:
+**Улаз**:
 
-**Ulaz**:
-S = "python", K = 5  
+С = "пyтхон", К = 5  
 
-**Izlaz**:
-"udymts"  
+**Излаз**:
 
-.. learnmorenote:: **Rešenje**
-
-    .. code-block:: python
-
-        S = "abc"  # Primer: početni string
-        K = 3      # Primer: broj rotacija
-
-        rezultat = ""
-        for karakter in S:
-            nova_pozicija = (ord(karakter) - ord('a') + K) % 26 + ord('a')
-            rezultat += chr(nova_pozicija)
-
-        print("Šifrovani string je:", rezultat)
+"удyмтс"
