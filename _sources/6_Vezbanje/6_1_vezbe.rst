@@ -38,7 +38,7 @@
 Дани са температурама вишим од просека: 4, 5, 6  
 
 
-.. reveal:: resenje_6_1_1
+.. reveal:: 6_1_resenje_6_1_1
     :showtitle: Прикажи решење
     :hidetitle: Сакриј решење
 
@@ -105,7 +105,9 @@
 **Објашњење излаза**:  
 Број 200 је најближи броју 250.  
 
-.. learnmorenote:: Решење
+.. reveal:: 6_1_resenje_6_1_2
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -172,7 +174,9 @@
 **Излаз**:
 Не постоји подниз са траженом сумом.
 
-.. learnmorenote:: Решење
+.. reveal:: 6_1_resenje_6_1_3
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -235,7 +239,9 @@
 **Објашњење излаза**:  
 Разлика између 15 и 1 је највећа, износи 14.  
 
-.. learnmorenote:: Решење
+.. reveal:: 6_1_resenje_6_1_4
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -282,7 +288,9 @@
 **Објашњење излаза**:  
 Слично, сваки елемент се израчунава искључујући тренутни.  
 
-.. learnmorenote:: Решење
+.. reveal:: 6_1_resenje_6_1_45
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -341,7 +349,9 @@
 **Објашњење излаза**:  
 Идентификовали смо парове бројева чији збир износи 10.  
 
-.. learnmorenote:: Решење
+.. reveal:: 6_1_resenje_6_1_5
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -406,7 +416,9 @@ K: 3
 **Објашњење излаза**:  
 Прва три елемента су ротирана на крај.  
 
-.. learnmorenote:: Решење
+.. reveal:: 6_1_resenje_6_1_6
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -460,7 +472,9 @@ K: 3
 **Објашњење излаза**:  
 Нема растућих поднизова дужих од једног елемента.  
 
-.. learnmorenote:: Решење
+.. reveal:: 6_1_resenje_6_1_7
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -523,7 +537,9 @@ K: 3
 **Објашњење излаза**:  
 Температуре опадају на интервалима индекса (0, 2) и (3, 4).  
 
-.. learnmorenote:: Решење
+.. reveal:: 6_1_resenje_6_1_8
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -592,7 +608,9 @@ K: 3
 **Објашњење излаза**:  
 Највећи производ је добијен од бројева -10, -10 и 5 (:math:`-10 \times -10 \times 5 = 500`).  
 
-.. learnmorenote:: Решење
+.. reveal:: 6_1_resenje_6_1_9
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -649,7 +667,9 @@ K: 3
 **Објашњење излаза**:  
 Елементи се групишу са бројем њихових понављања.  
 
-.. learnmorenote:: Решење
+.. reveal:: 6_1_resenje_6_1_10
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -711,7 +731,9 @@ R: 4
 **Објашњење излаза**:  
 Цела листа је обрнута.  
 
-.. learnmorenote:: Решење
+.. reveal:: 6_1_resenje_6_1_11
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -769,7 +791,9 @@ R: 4
 **Објашњење излаза**:  
 Ниједан број се не појављује више од половине укупног броја елемената у листи.  
 
-.. learnmorenote:: Решење
+.. reveal:: 6_1_resenje_6_1_12
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -839,7 +863,9 @@ R: 4
 **Објашњење излаза**:  
 Ниједан индекс не задовољава услов.  
 
-.. learnmorenote:: Решење
+.. reveal:: 6_1_resenje_6_1_13
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
