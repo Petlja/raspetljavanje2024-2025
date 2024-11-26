@@ -38,10 +38,12 @@
 Дани са температурама вишим од просека: 4, 5, 6  
 
 
-.. learnmorenote:: Решење
+.. reveal:: resenje_6_1_1
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
-        
+
         # Унос температура за сваки дан у недељи
         temperatures = []
         for i in range(7):
