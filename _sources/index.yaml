@@ -311,5 +311,10 @@ lessons:
 
       - type: reading
         title: 12.1 Вежбање
-        file: vezbanje_12.rst
+        file: 12_1_vezbanje.rst
         guid: 8092f79b-efb5-4b7f-80b7-81918a024b56
+
+      - type: reading
+        title: 12.2 Домаћи задаци
+        file: 12_2_domaci.rst
+        guid: adcf4abe-0ef4-461c-83ac-d246bce770e5
