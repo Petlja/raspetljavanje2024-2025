@@ -292,6 +292,11 @@ lessons:
         file: 10_2_vezbanje.rst
         guid: cce35b02-ba6d-4889-ba80-c40e894b3fb8
 
+      - type: reading
+        title: 10.3 Домаћи задаци
+        file: 10_3_domaci.rst
+        guid: 72155166-f899-4e7d-8e34-9282ecb8143f
+
   - title: 11. Вежбање - матрице
     guid: bf09a7bd-9787-44dd-a5be-80af988ae62e
     description: 
