@@ -3,9 +3,15 @@ lang: sr-Cyrl
 title: расПЕТЉАвање 3.0
 description:
   willLearn: 
-    - Програмирање у Пајтону
+    - Основе програмирања у Пајтону
+    - Гранање
+    - Петље
+    - Листе
+    - Дебаговање
+    - Функције 
+    - Матрице 
   requirements:
-  - Инсталиран Пајтон
+  - Инсталиран Пајтон (Упутство за инсталацију се налази у самом курсу)
   toc:
     - Intro to Petljadoc INDEX.yaml
   externalLinks:  
@@ -16,7 +22,14 @@ description:
     - text: Runestone Interactive
       href: https://github.com/RunestoneInteractive/overview
   longDescription: |
-    Опис овде
+    <p>
+    РасПЕТЉАвање је бесплатан програм подршке учењу програмирања који по трећи пут организујемо. расПЕТЉАвање 3.0 фокусирано је на ученике и ученице узраста од 11 до 18 година који немају претходног искуства у програмирању, а желе са нама да науче. У овом интерактивном курсу са интегрисаним видео лекцијама ћете имати прилику да учите програмирање, уз континуирану менторску подршку.
+    </p>
+    <p>
+        <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.sr_LATN">
+        <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a>
+        <br>Овај курс Фондација Петља објавила je под лиценцом <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.sr_LATN">Creative Commons Autorstvo 4.0 Međunarodna Licenca (CC BY 4.0)</a>.
+    </p>
   shortDescription: расПЕТЉАвање 3.0
 
 
