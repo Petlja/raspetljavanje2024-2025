@@ -133,13 +133,18 @@ lessons:
   - title: 4. Вежбање - основе, гранање и петље
     guid: 930ed43d-1bdc-41c6-8eac-8c6567f1f778
     description: 
-    folder: 4_vezbanje
+    folder: 4_Vezbanje
     activities:
 
       - type: reading
         title: 4.1 Вежбање
-        file: vezbanje_4.rst
+        file: 4_1_vezbanje.rst
         guid: 42a3445e-205e-4589-8228-08ca562fca27
+
+      - type: reading
+        title: 4.2 Домаћи
+        file: 4_2_domaci.rst
+        guid: a44588b5-3d61-4684-a14e-b719015d8d7a
         
   - title: 5. Листе
     guid: a70c7ea5-0f3e-4b96-ae9c-c0d55e7c9f24
@@ -279,7 +284,7 @@ lessons:
 
       - type: reading
         title: 10.1 Матрице
-        file: matrice.rst
+        file: 10_1_matrice.rst
         guid: 53446961-fc21-4b62-8073-c7759921ffe6
 
       - type: reading
@@ -295,8 +300,13 @@ lessons:
 
       - type: reading
         title: 11.1 Вежбање
-        file: vezbanje_11.rst
+        file: 11_1_vezbanje.rst
         guid: 569d8728-ee2f-48b4-b164-64ec1b0300ae
+
+      - type: reading
+        title: 11.2 Домаћи задаци
+        file: 11_2_domaci.rst
+        guid: adcf4abe-0ef4-461c-83ac-d246bce770e5
 
   - title: 12. Вежбање
     guid: 01f793f7-510f-47d9-a2c6-d558588a12fb
@@ -306,5 +316,6 @@ lessons:
 
       - type: reading
         title: 12.1 Вежбање
-        file: vezbanje_12.rst
+        file: 12_1_vezbanje.rst
         guid: 8092f79b-efb5-4b7f-80b7-81918a024b56
+

@@ -33,7 +33,9 @@
 **Објашњење излаза**:  
 Сви парни бројеви између 1 и 7 су исписани.
 
-.. learnmorenote:: Rešenje
+.. reveal:: 4_1_resenje_6_1_1
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -75,7 +77,9 @@
 **Објашњење излаза**:  
 Број 10 има више делилаца осим 1 и самог себе (нпр. 2 и 5).
 
-.. learnmorenote:: Rešenje
+.. reveal:: 4_1_resenje_6_1_2
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -126,7 +130,9 @@
 **Објашњење излаза**:  
 Факторијел се рачуна као :math:`3! = 3 \times 2 \times 1 = 6`.
 
-.. learnmorenote:: Rešenje
+.. reveal:: 4_1_resenje_6_1_3
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -188,7 +194,9 @@
     - 9474 (четвороцифрени Армстронгов број).
 
 
-.. learnmorenote:: Rešenje
+.. reveal:: 4_1_resenje_6_1_4
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -228,7 +236,9 @@
 Исписани су сви троцифрени бројеви где је збир цифара једнак 10, на пример: за 118, :math:`1 + 1 + 8 = 10`.
 
 
-.. learnmorenote:: Rešenje
+.. reveal:: 4_1_resenje_6_1_5
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -272,7 +282,9 @@
 **Објашњење излаза**:  
 Делиоце броја 15 чине 1, 3, 5 и 15.
 
-.. learnmorenote:: Rešenje
+.. reveal:: 4_1_resenje_6_1_6
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -314,7 +326,9 @@
 **Објашњење излаза**:  
 Број 123 се не чита исто са леве и десне стране.
 
-.. learnmorenote:: Rešenje
+.. reveal:: 4_1_resenje_6_1_7
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -354,7 +368,9 @@
 **Објашњење излаза**:  
 За број 123, :math:`1 \times 2 \times 3 = 6`, a :math:`1 + 2 + 3 = 6`.
 
-.. learnmorenote:: Rešenje
+.. reveal:: 4_1_resenje_6_1_8
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -401,7 +417,9 @@
 **Објашњење излаза**:  
 Прави делиоци броја 8 су 1, 2 и 4. Њихов збир :math:`1 + 2 + 4 = 7`, што значи да 8 није савршен број.
 
-.. learnmorenote:: Rešenje
+.. reveal:: 4_1_resenje_6_1_9
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -437,7 +455,9 @@
 **Објашњење излаза**:  
 Бројеви попут 1023 имају цифре 1, 0, 2 и 3 које су све различите и појављују се само једном.
 
-.. learnmorenote:: Rešenje
+.. reveal:: 4_1_resenje_6_1_10
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -489,7 +509,9 @@
 **Објашњење излаза**:  
 Број 100 садржи укупно 3 цифре.
 
-.. learnmorenote:: Rešenje
+.. reveal:: 4_1_resenje_6_1_11
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -522,7 +544,9 @@
 **Објашњење излаза**:  
 Бројеви попут 101 имају две исте цифре (1 се понавља), док број 123 нема.
 
-.. learnmorenote:: Rešenje
+.. reveal:: 4_1_resenje_6_1_12
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -566,7 +590,9 @@
 **Објашњење излаза**:  
 Бројеви су већ сортирани, али програм рачуна минимум и максимум.
 
-.. learnmorenote:: Rešenje
+.. reveal:: 4_1_resenje_6_1_13
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -614,7 +640,9 @@
 **Објашњење излаза**:  
 Број 2 није већи од броја 3, што прекида растући поредак.
 
-.. learnmorenote:: Rešenje
+.. reveal:: 4_1_resenje_6_1_14
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -665,7 +693,9 @@
 **Објашњење излаза**:  
 У опсегу од 5 до 15, прости бројеви су 5, 7, 11 и 13.
 
-.. learnmorenote:: Rešenje
+.. reveal:: 4_1_resenje_6_1_15
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -714,7 +744,9 @@
 **Објашњење излаза**:  
 Додаје се 25, јер је и он квадрат простог броја.
 
-.. learnmorenote:: Rešenje
+.. reveal:: 4_1_resenje_6_1_16
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -760,7 +792,9 @@
 **Објашњење излаза**:  
 Сваки наредни број мења парност.
 
-.. learnmorenote:: Rešenje
+.. reveal:: 4_1_resenje_6_1_17
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
@@ -810,7 +844,9 @@
 **Објашњење излаза**:  
 Цифра 1 појављује се два пута.
 
-.. learnmorenote:: Rešenje
+.. reveal:: 4_1_resenje_6_1_18
+    :showtitle: Прикажи решење
+    :hidetitle: Сакриј решење
 
     .. code-block:: python
 
