@@ -186,25 +186,35 @@ Funkcija format ima i mnoge druge mogućnosti, od kojih ćemo još neke upoznati
 Ф-стрингови омогућавају једноставно укључивање вредности у текстуални исказ.
 
    
-.. activecode:: print6
-   :coach:
+.. code-block:: python
    
    ime = "Petar"
    godina = 23
    print(f"{ime} ima {godina} godine.")
    
    
+Овај код ће исписати: 
+
+.. code-block:: python 
+
+   Petar ima 23 godine.
+
+
 Форматирање бројева 
 ---------------------
  
 Можете контролисати број децимала у испису реалних бројева.
 
-.. activecode:: print7
-   :coach:
+.. code-block:: python
    
    broj = 3.14159
-   print(f"Broj pi je priblizno: {broj:.2f}")
+   print(f"Broj pi je približno: {broj:.2f}")
 
+Овај код ће исписати: 
+
+.. code-block:: python 
+
+   Broj pi je približno: 3.14
    
 Метод `.format()` 
 ------------------

@@ -6,6 +6,10 @@
 Меморија
 --------
 
+.. raw:: html
+
+   <iframe width="780" height="420" src="https://www.youtube-nocookie.com/embed/28rf911JhNU?si=2Jv4s7XYK51Wv3mr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Меморија је основна компонента у рачунарству и биологији која служи за складиштење и чување информација које можемо користити касније. У контексту људског мозга, меморија је способност да 
 памтимо и сећамо се информација, искустава и знања. Код рачунара, меморија је систем који складишти податке и програме које рачунар користи за обраду задатака. 
 
