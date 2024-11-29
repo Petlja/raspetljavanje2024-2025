@@ -16,8 +16,23 @@
 .. activecode:: v20_zadatak1
     :coach:
 
-    # Допуни
+    # Kreiraj praznu matricu(listu)
 
+    for i in range(3):
+        # Kreiraj praznu listu
+        
+        for j in range(3):
+            # Додавање нуле у ред
+    
+        # Додавање реда у матрицу
+
+    # Приказ матрице
+    for # Dopuni
+        for # Dopuni
+            print(element, end=" ")
+        print()
+
+        
 **Пример 1**:
 
 **Улаз**:  
