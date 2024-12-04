@@ -46,9 +46,13 @@
 
 .. mchoice:: uvod_vezbe_pitanje_1
 	:answer_a: 52
+	:feedback_a: Нетачно.
 	:answer_b: 3517
+	:feedback_b: Тачно!
 	:answer_c: 35 17
+	:feedback_c: Нетачно.
 	:answer_d: 52 17
+	:feedback_d: Нетачно.
 	:correct: b
 
 	Шта ће бити исписано на излазу наведеног програма ако је на улазу унето 35 и 17?
@@ -63,9 +67,13 @@
 
 .. mchoice:: uvod_vezbe_pitanje_2
 	:answer_a: 52
+	:feedback_a: Тачно!
 	:answer_b: 3517
+	:feedback_b: Нетачно.
 	:answer_c: 35 17
+	:feedback_c: Нетачно.
 	:answer_d: 52 17
+	:feedback_d: Нетачно.
 	:correct: a
 
 	Шта ће бити исписано на излазу наведеног програма ако је на улазу унето 35 и 17?
@@ -146,9 +154,13 @@
 
 .. mchoice:: uvod_vezbe_pitanje_3
 	:answer_a: 12
+	:feedback_a: Нетачно.
 	:answer_b: 170
+	:feedback_b: Нетачно.
 	:answer_c: 35
+	:feedback_c: Нетачно.
 	:answer_d: 23
+	:feedback_d: Тачно!
 	:correct: d
 
 	Шта ће бити исписано на излазу наведеног програма?
