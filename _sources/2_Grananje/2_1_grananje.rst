@@ -229,7 +229,7 @@
     if poeni < 40:
         print("Ocena 1")
 
-.. mchoice:: grananje_pitanje_1 KOMENTAR: /Стајало је "granjanje_pitanje_1" - molim za proveru da li ima veze sa drugim delovima koda, pa da treba promeniti./
+.. mchoice:: grananje_pitanje_1
     :answer_a: Да
     :answer_b: Не
     :correct: b
