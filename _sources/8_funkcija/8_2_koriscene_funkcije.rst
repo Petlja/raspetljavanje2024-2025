@@ -43,7 +43,7 @@
    :coach:
 
    ime = input("Унесите своје име: ")
-   print(f"Здраво, {ime}!")
+   print("Здраво", ime, "!")
 
 
 
@@ -75,7 +75,7 @@
 .. activecode:: funkcije11
    :coach:
 
-   for broj у range(5):
+   for broj in range(5):
        print(broj)
 
 

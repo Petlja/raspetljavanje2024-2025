@@ -87,7 +87,7 @@
    :coach:
    
    def pozdrav(ime):
-       print(f"Zdravo, {ime}!")
+       print("Zdravo", ime)
 
    # Pozivanje funkcije
    pozdrav("Ana")  # Output: Zdravo, Ana!
@@ -132,7 +132,7 @@
    def kvadrat(broj):
        return broj ** 2
 
-   rezultat = kvadrat()
+   rezultat = kvadrat(4)
    print(rezultat)  # Output: 16
 
 
@@ -155,8 +155,8 @@
        return obim, povrsina
 
    rez_obim, rez_povrsina = obim_i_povrsina(10)
-   print(f"Obim: {rez_obim}, Površina: {rez_povrsina}")
-   # Output: Obim: 31.400000000000002, Površina: 78.5
+   print("Obim:", rez_obim, "Površina:", rez_povrsina)
+   # Output: Obim: 31.4, Površina: 78.5
 
 
 
@@ -172,7 +172,7 @@
 
    temp_c = 25
    temp_f = celsius_u_fahrenheit(temp_c)
-   print(f"{temp_c}°C = {temp_f}°F")
+   print(temp_c,"°C", "=", temp_f, "°F")
    # Output: 25°C = 77.0°F
 
 
@@ -188,7 +188,7 @@
        return duzina, veliki, mali
 
    rez_duzina, rez_veliki, rez_mali = obrada_teksta("Programiranje")
-   print(f"Dužina: {rez_duzina}, Velika slova: {rez_veliki}, Mala slova: {rez_mali}")
+   print("Dužina:", rez_duzina, "Velika slova:", rez_veliki, "Mala slova:", rez_mali)
    # Output: Dužina: 12, Velika slova: PROGRAMIRANJE, Mala slova: programiranje
 
 

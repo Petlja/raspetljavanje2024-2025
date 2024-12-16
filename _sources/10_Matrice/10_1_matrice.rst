@@ -212,8 +212,7 @@
 
 Пример множења:
 
-.. activecode:: python
-	:coach:
+.. code-block:: python
    
    # Множење две матрице
    A = [

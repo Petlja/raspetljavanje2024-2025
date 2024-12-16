@@ -70,25 +70,19 @@
 Пример кода:
 
 .. activecode:: rekurzija101
-   :coach:
+    :coach:
 
-   def fibonaci(n):
-       if n == 0:  # Базни случај
-           return 0
-       elif n == 1:  # Базни случај
-           return 1
-       else:
-           return fibonaci(n-1) + fibonaci(n-2)  # Рекурзивни случај
+    def fibonaci(n):
+        if n == 0:  # Базни случај
+            return 0
+        elif n == 1:  # Базни случај
+            return 1
+        else:
+            return fibonaci(n-1) + fibonaci(n-2)  # Рекурзивни случај
+
+    print(fibonaci(5))  # Позив функције
 
 
-Позив функције:
-
-
-.. activecode:: rekurzija102
-   :coach:
-   
-
-   print(fibonaci(5))  # Излаз: 5
 
 
 **Објашњење корак по корак (Фибоначи за n=5):**
@@ -118,23 +112,17 @@
 Пример кода:
 
 .. activecode:: rekurzija103
-   :coach:
+    :coach:
 
-   def broj_elemenata(lista):
-       
-	   if lista == []:  # Базни случај
-           return 0
-       else:
-           return 1 + broj_elemenata(lista[1:])  # Рекурзивни случај
+    def broj_elemenata(lista):
+        
+        if lista == []:  # Базни случај
+            return 0
+        else:
+            return 1 + broj_elemenata(lista[1:])  # Рекурзивни случај
 
-
-Позив функције:
-
-.. activecode:: rekurzija104
-   :coach:
-
-   lista = [1, 2, 3, 4, 5]
-   print(broj_elemenata(lista))  # Излаз: 5
+    lista = [1, 2, 3, 4, 5]
+    print(broj_elemenata(lista))  # Излаз: 5
 
 
 **Објашњење корак по корак:**

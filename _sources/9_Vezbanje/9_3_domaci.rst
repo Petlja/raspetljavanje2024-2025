@@ -49,7 +49,7 @@
 
 Креирај функцију која враћа обрнуту листу.
 
-.. activecode:: 9_3_domaci_2
+.. activecode:: 9_3_domaci_4
     :coach:
 
     def obrni_listu(lista):

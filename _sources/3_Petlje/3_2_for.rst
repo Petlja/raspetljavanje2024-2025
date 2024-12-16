@@ -48,8 +48,7 @@ For петља
 Синтакса for петље у програмским језицима обично изгледа овако:
 
 
-.. activecode:: for0  
-   :coach:
+.. code-block:: python
 
    for i in range(početna vrednost; uslov; korak):
    
