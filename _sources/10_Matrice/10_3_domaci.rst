@@ -47,9 +47,9 @@
 
 **Izlaz**:
 
-Zbir elemenata iznad glavne dijagonale: 15
+Zbir elemenata iznad glavne dijagonale: 11
 
-Zbir elemenata ispod glavne dijagonale: 12
+Zbir elemenata ispod glavne dijagonale: 19
 
 **Објашњење:**
 
@@ -71,15 +71,15 @@ Zbir elemenata ispod glavne dijagonale: 12
 
 **Izlaz**:
 
-Zbir elemenata iznad glavne dijagonale: 26
+Zbir elemenata iznad glavne dijagonale: 36
 
-Zbir elemenata ispod glavne dijagonale: 42
+Zbir elemenata ispod glavne dijagonale: 66
 
 **Објашњење:**
 
-Збир елемената изнад главне дијагонале: 2 + 3 + 4 + 7 + 8 + 12 = 26
+Збир елемената изнад главне дијагонале: 2 + 3 + 4 + 7 + 8 + 12 = 36
 
-Збир елемената испод главне дијагонале: 5 + 9 + 10 + 13 + 14 + 15 = 42
+Збир елемената испод главне дијагонале: 5 + 9 + 10 + 13 + 14 + 15 = 66
 
 Задатак 3
 `````````
